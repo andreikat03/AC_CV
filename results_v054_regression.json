@@ -1,0 +1,232 @@
+{
+  "total": 45,
+  "passed": 45,
+  "failed": [],
+  "checks": [
+    {
+      "name": "Hook personal greeting",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Hook decline playful button exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Hook exit exists",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Hook starts hidden chapters",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Hook starts story",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Who Am I existing professional content",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Five chapter dots",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Five chapter sections",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "No Creative Assets DOM section",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "No Creative Assets buttons",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "NOCTIS materials intact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Puzzle initially unsolved",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Clue flyer",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Clue story",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Clue post",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Clue landing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Puzzle IDEE correct",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Arcade visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Arcade starts",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Quiz visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Quiz completes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Beauty Circle visible",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Beauty Circle completes",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Proof retains DetailLane",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Proof retains two secondary projects",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Proof has local video controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Video metadata loaded inline",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Video not autoplayed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Video plays",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Video pauses",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Video seeks",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Proof route to plan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Proof -> plan hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Plan three phases",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Plan explicitly illustrative",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Plan first experiment",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "No fictive results",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Plan -> decision hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Final decision intact",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Booking remains intentionally disabled",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "No JS runtime errors",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "name": "Keyboard to plan works",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Local video byte-identical to original",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Reduced motion jumps to plan",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Reduced motion progress full",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

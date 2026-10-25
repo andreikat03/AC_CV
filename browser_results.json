@@ -1,0 +1,212 @@
+[
+  {
+    "test": "main responsive 320px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 320px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "main responsive 375px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 375px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "main responsive 390px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 390px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "main responsive 430px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 430px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "main responsive 768px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 768px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "main responsive 1024px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 1024px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "main responsive 1440px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 1440px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "main responsive 1920px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']"
+  },
+  {
+    "test": "detail responsive 1920px",
+    "status": "PASS",
+    "detail": "overflow=0px; js=[]; img=[]"
+  },
+  {
+    "test": "original personalized Hook",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "chapter structure",
+    "status": "PASS",
+    "detail": "['who', 'marketing', 'proof', 'plan', 'decision']"
+  },
+  {
+    "test": "fast recruit skip path",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "exit modal opens",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "exit modal focus containment",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "exit modal Escape restores focus",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "start navigation + focus",
+    "status": "PASS",
+    "detail": "whoTitle"
+  },
+  {
+    "test": "chapter dots after start",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "puzzle wrong and IDEE correct",
+    "status": "PASS",
+    "detail": "Nu este codul corect. Urmărește literele de pe Flyer → Story → Postare → Landing page. / Cod recunoscut. Ai deblocat o recompensă demonstrativă."
+  },
+  {
+    "test": "puzzle four clues defined",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "quiz five steps + recommendations",
+    "status": "PASS",
+    "detail": "O rutină simplă, aleasă de tine."
+  },
+  {
+    "test": "quiz reset",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "Beauty Circle 4 scenarios",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "Beauty Circle restart",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "arcade 9 hits applied",
+    "status": "PASS",
+    "detail": "9 hits; score 090"
+  },
+  {
+    "test": "arcade win/coupon",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "arcade replay",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "Proof of Work DetailLane video exists",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "embedded video metadata",
+    "status": "PASS",
+    "detail": "{'ready': 4, 'duration': 46, 'width': 1920, 'height': 1080}"
+  },
+  {
+    "test": "Proof to plan",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "Plan to Final Decision",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "calendar booking exact URL and security",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "main JS errors",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "test": "Hook touch double-tap",
+    "status": "PASS",
+    "detail": "Da, normal, abia aștept!"
+  },
+  {
+    "test": "detail route and source links",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "data distinction",
+    "status": "PASS",
+    "detail": ""
+  }
+]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="860" viewBox="0 0 640 860" role="img" aria-label="Ilustrație produs cosmetic fictiv NOCTIS Daily Glow">
+<defs>
+<linearGradient id="glass" x1="0" x2="1"><stop stop-color="#6b88a2"/><stop offset=".18" stop-color="#e6eef5"/><stop offset=".39" stop-color="#b7ccdc"/><stop offset=".77" stop-color="#7c99b3"/><stop offset="1" stop-color="#54708a"/></linearGradient>
+<linearGradient id="cap" x1="0" x2="1"><stop stop-color="#4a5e74"/><stop offset=".35" stop-color="#d3e1ec"/><stop offset=".85" stop-color="#718ba1"/><stop offset="1" stop-color="#3c5067"/></linearGradient>
+<linearGradient id="label" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#f7f8f8" stop-opacity=".95"/><stop offset="1" stop-color="#e7edf2" stop-opacity=".89"/></linearGradient>
+<filter id="shadow" x="-60%" y="-60%" width="240%" height="260%"><feGaussianBlur stdDeviation="25"/></filter>
+<filter id="soft" x="-60%" y="-60%" width="240%" height="260%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<ellipse cx="324" cy="784" rx="190" ry="30" fill="#071829" opacity=".26" filter="url(#shadow)"/>
+<rect x="244" y="84" width="154" height="100" rx="20" fill="url(#cap)" stroke="#c7d7e3" stroke-width="2"/>
+<rect x="260" y="104" width="16" height="62" rx="7" fill="#fff" opacity=".23" filter="url(#soft)"/>
+<rect x="190" y="160" width="266" height="560" rx="67" fill="url(#glass)" stroke="#e0ebf5" stroke-width="4"/>
+<rect x="212" y="195" width="20" height="473" rx="10" fill="#fff" opacity=".26" filter="url(#soft)"/>
+<path d="M420 196 Q440 250 439 370 L439 590 Q438 666 399 694" fill="none" stroke="#f7fdff" opacity=".28" stroke-width="15" stroke-linecap="round"/>
+<rect x="212" y="345" width="221" height="247" rx="15" fill="url(#label)" stroke="#d5e2eb" stroke-width="2"/>
+<path d="M300 397 L322 365 L344 397 Z" fill="none" stroke="#6f879e" stroke-width="2"/>
+<text x="323" y="446" text-anchor="middle" fill="#31465a" font-size="29" letter-spacing="6" font-family="Arial,sans-serif">NOCTIS</text>
+<line x1="270" y1="470" x2="380" y2="470" stroke="#8e9eab" stroke-width="1"/>
+<text x="323" y="510" text-anchor="middle" fill="#53687e" font-size="18" letter-spacing="4" font-family="Arial,sans-serif">DAILY GLOW</text>
+<text x="323" y="554" text-anchor="middle" fill="#647b90" font-size="13" letter-spacing="2" font-family="Arial,sans-serif">SERUM · CONCEPT</text>
+<path d="M259 704 Q325 730 395 704" stroke="#f4fbff" stroke-width="3" opacity=".25" fill="none"/>
+</svg>

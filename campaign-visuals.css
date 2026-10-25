@@ -1,0 +1,145 @@
+/* V0.5.1 — Four actual mock advertising formats, designed locally.
+   No external brand/API dependence; single shared illustrated NOCTIS product. */
+.story-shell #marketing #lab-secret{max-width:1100px;margin-left:auto;margin-right:auto}
+.campaign-walkthrough{color:#e8eef6;--paper:#f2f5f8;--ink:#293c4e;--campaignblue:#8ea9c2}
+.campaign-walkthrough-intro{max-width:720px;margin:0 0 20px}
+.campaign-walkthrough-intro h3{font-size:clamp(24px,3.2vw,38px);margin:9px 0 8px;letter-spacing:-.04em}
+.campaign-walkthrough-intro p{color:#c0cedf;line-height:1.7;font-size:14px;margin:0}
+.campaign-sequence{display:flex;gap:9px;align-items:center;margin:10px 0 33px;color:#aabdd4;font:10px var(--mono);letter-spacing:.07em;flex-wrap:wrap}
+.campaign-sequence i{height:1px;background:#7791ae80;flex:1;min-width:9px;max-width:75px}
+.campaign-material{margin:0 auto 55px;max-width:980px;scroll-margin-top:35px}
+.material-head{display:flex;align-items:baseline;gap:15px;flex-wrap:wrap;margin:0 0 15px;justify-content:space-between}
+.material-head>span{font:10px var(--mono);color:#a8b8d4;letter-spacing:.08em}
+.material-head h4{font-size:clamp(19px,2.3vw,29px);letter-spacing:-.035em;font-weight:800;margin:0;flex:1}
+.material-head small{font-size:11px;color:#a9bbd0}
+.material-stage{position:relative;min-width:0;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid #8198b058;border-radius:17px;padding:24px;background:radial-gradient(ellipse at 50% 30%,#52698245,#233343 75%)}
+.material-letter{display:inline-flex;align-items:center;justify-content:center;z-index:2;transition:box-shadow .25s ease,transform .25s ease,background-color .25s ease}
+.campaign-material.is-revealed .material-letter{box-shadow:0 0 0 7px rgba(228,239,253,.18),0 0 22px 8px rgba(170,196,229,.15);transform:scale(1.08)}
+.material-action{display:flex;align-items:center;flex-wrap:wrap;gap:10px 13px;margin-top:13px;padding:0 3px}
+.material-action p{flex:1 1 280px;margin:0;font-size:12px;line-height:1.65;color:#c8d3e1}
+.material-reveal{min-height:44px;border:1px solid #8ca6c0;background:#354b62;color:#eef5ff;padding:10px 17px;border-radius:9px;font-size:12px;font-weight:750;cursor:pointer;transition:background .15s ease}
+.material-reveal:hover,.material-reveal:focus-visible{background:#4a6886;outline-offset:3px}
+.material-reveal[aria-expanded="true"]{background:#a8b8d4;color:#263644}
+.material-discovered{font:11px var(--mono);color:#a9becf;min-width:140px}
+.campaign-material.is-revealed .material-discovered{color:#cce5d5}
+/* Printed A5 flyer — rendered as a single, printable-looking piece. */
+.flyer-stage{padding:25px;min-height:540px;background:radial-gradient(ellipse at 58% 25%,#6989a85c,transparent 65%),#293b4e}
+.actual-flyer{position:relative;width:min(100%,455px);min-height:580px;overflow:hidden;display:flex;flex-direction:column;background:linear-gradient(165deg,#dfe8f0 0%,#d2e0ec 48%,#eef3f7 100%);color:#263b51;padding:26px 26px 22px;box-shadow:0 14px 45px #0e1b2b7a,0 2px 9px #0e1b2b47;isolation:isolate}
+.actual-flyer:before{content:"";position:absolute;border-radius:50%;width:320px;height:320px;top:65px;right:-87px;border:1px solid #859fb748;box-shadow:0 0 0 30px #aabdd024,0 0 0 75px #b1c6d91a;z-index:-1}
+.flyer-creative-head{display:flex;justify-content:space-between;align-items:center;gap:10px;font:10px var(--mono);letter-spacing:.09em;position:relative;z-index:2}
+.flyer-creative-head b{font-size:16px;letter-spacing:.24em;font-family:Arial,sans-serif}
+.flyer-creative-head span{font-size:8px;color:#6b7e91}
+.flyer-ad-hero{height:240px;position:relative;display:flex;align-items:center;justify-content:center}
+.flyer-ad-glow{position:absolute;width:230px;height:230px;border-radius:50%;background:#99b2ca66;filter:blur(18px)}
+.flyer-ad-hero img{position:relative;height:245px;width:auto;max-width:100%;filter:drop-shadow(12px 14px 8px #283a5063);transform:rotate(8deg)}
+.flyer-ad-hero .creative-motif{position:absolute;right:10px;top:18px;font:700 27px Georgia,serif;border:1px solid #7f97ae85;border-radius:100%;width:48px;height:48px;color:#66819b;background:#e9f0f7}
+.flyer-ad-copy{margin-top:auto;position:relative;z-index:2}
+.ad-overline{font:9px var(--mono);letter-spacing:.16em;color:#60788c}
+.flyer-ad-copy>strong{font-weight:850;font-size:clamp(29px,3.1vw,39px);letter-spacing:-.055em;line-height:1.07;display:block;margin:9px 0 6px}
+.flyer-ad-copy>p{margin:0 0 12px;font-size:11px;color:#596f85}
+.flyer-date{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:9px 0;border-block:1px solid #6c859b54;font:9px var(--mono)}
+.flyer-date b{font-size:10px;letter-spacing:.035em}
+.flyer-deal{display:flex;gap:12px;align-items:center;padding:10px 0}
+.flyer-deal strong{font-size:24px;line-height:1;white-space:nowrap;letter-spacing:-.03em}
+.flyer-deal strong small{display:block;font-size:9px;letter-spacing:.09em;margin-top:5px}
+.flyer-deal p{font-size:10px;line-height:1.35;margin:0;color:#4a6177}
+.flyer-terms{font-size:8px;color:#677a8a;line-height:1.5;display:block;border-top:1px solid #728aa252;padding-top:8px}
+/* Vertical story in recognizable mobile viewer chrome. */
+.story-stage{min-height:535px;background:radial-gradient(ellipse at 50% 35%,#5e7c9d5c,#253646 64%)}
+.story-phone{position:relative;flex-shrink:0;width:min(100%,306px);aspect-ratio:9 / 16;max-height:565px;border:6px solid #101c2a;border-radius:28px;overflow:hidden;background:radial-gradient(circle at 47% 43%,#7f9bb4 0,#4e6a82 28%,#23384b 75%,#172635 100%);box-shadow:0 12px 42px #101923a6;color:white;display:flex;flex-direction:column}
+.story-phone-notch{position:absolute;top:0;left:50%;transform:translateX(-50%);width:77px;height:13px;border-radius:0 0 9px 9px;background:#101c2a;z-index:7}
+.story-progress{display:flex;gap:4px;padding:17px 12px 9px;position:relative;z-index:5}
+.story-progress i{height:3px;background:#fff8;flex:1;border-radius:6px}.story-progress i:first-child{background:#fff}
+.story-profile{display:flex;gap:7px;align-items:center;padding:0 11px;color:white;font-size:10px;position:relative;z-index:5}
+.social-avatar{background:#d5e2ee;color:#2b435b;border-radius:100%;width:27px;height:27px;display:flex;align-items:center;justify-content:center;font-weight:900}
+.story-profile>span{opacity:.75;font-size:9px}
+.story-profile .story-more{margin-left:auto;font-size:18px}
+.story-poster{position:relative;min-height:0;flex:1;display:flex;align-items:center;justify-content:center}
+.story-halo{position:absolute;width:87%;aspect-ratio:1;border-radius:50%;border:1px solid #d9e9ff54;box-shadow:0 0 0 24px #e6f0f818,0 0 0 55px #e6f0f80d}
+.story-poster img{position:relative;width:auto;height:95%;max-width:85%;filter:drop-shadow(0 17px 11px #0c223f6b);transform:rotate(-9deg)}
+.story-creative-rune{position:absolute;right:14px;top:9%;font:700 24px Georgia,serif;background:#e2edf529;color:#edf6ff;width:41px;height:41px;border:1px solid #e4f1fc91;border-radius:50%}
+.story-message{position:relative;z-index:5;margin:-18px 19px 0;text-shadow:0 2px 8px #101e31bb}
+.story-message>span{font:9px var(--mono);letter-spacing:.1em}
+.story-message strong{font-weight:900;font-size:23px;line-height:1.09;letter-spacing:-.03em;display:block;margin:8px 0}
+.story-message p{font-size:9px;margin:0 0 13px;letter-spacing:.1em;color:#e2e9f2}
+.story-countdown{border:1px solid #e2edf5a0;background:#a3bedc37;border-radius:10px;padding:9px 12px;display:flex;align-items:center;gap:9px;justify-content:space-between}
+.story-countdown span{font-size:8px}.story-countdown b{font-size:12px;white-space:nowrap}
+.story-reply{margin:12px 15px 14px;border-radius:20px;border:1px solid #d8e7f4a1;padding:7px 10px;font-size:10px;display:flex;justify-content:space-between;align-items:center;gap:5px}
+.story-reply span{font-size:17px}
+.material-demo-mark{position:absolute;bottom:12px;right:15px;font:8px var(--mono);color:#b2c5dc;letter-spacing:.08em}
+/* Facebook recognizable feed post chrome (without fake engagement). */
+.post-stage{background:#e9edf3;padding:27px}
+.facebook-post{background:#fff;color:#24394a;width:min(100%,590px);border-radius:11px;box-shadow:0 11px 34px #1019253b;overflow:hidden;font-family:Arial,system-ui,sans-serif}
+.facebook-head{padding:17px 17px 10px;display:flex;align-items:center;gap:9px}
+.fb-avatar{width:37px;height:37px;border-radius:100%;background:linear-gradient(140deg,#9db8d3,#425a76);color:#fff;display:grid;place-items:center;font-size:19px;font-weight:850}
+.facebook-head>div{flex:1;display:flex;flex-direction:column;gap:4px}
+.facebook-head strong{font-size:14px;color:#253949}.facebook-head small{font-size:10px;color:#7d8b98}
+.fb-more{font-size:25px;color:#8595a7;align-self:flex-start;margin-top:-6px}
+.facebook-caption{font-size:13px;line-height:1.45;margin:0;padding:0 17px 12px;color:#273d52}
+.facebook-caption small{color:#5d7da0}
+.fb-creative{position:relative;min-height:235px;display:flex;align-items:center;overflow:hidden;background:linear-gradient(120deg,#b5c9dc 0,#e8eff4 50%,#afc6db 100%)}
+.fb-creative:before{content:"";position:absolute;width:290px;height:290px;border:1px solid #fff9;border-radius:100%;left:47%;top:-25px;box-shadow:0 0 0 33px #fff4}
+.fb-creative-copy{position:relative;z-index:2;padding:20px 0 25px 30px;max-width:48%;display:flex;flex-direction:column;gap:9px}
+.fb-creative-copy>span{font:11px var(--mono);color:#4a6378;letter-spacing:.08em}
+.fb-creative-copy>strong{font-weight:850;font-size:clamp(28px,4vw,43px);letter-spacing:-.06em;line-height:1.05;color:#273d51}
+.fb-creative-copy small{font:9px var(--mono);color:#586d7f}
+.fb-creative img{position:absolute;height:106%;width:auto;max-width:54%;right:5%;bottom:-15%;filter:drop-shadow(11px 9px 13px #394e645c);transform:rotate(8deg)}
+.fb-hidden-letter{position:absolute;top:16px;right:26px;width:44px;height:44px;border-radius:50%;border:1px solid #6585a3b0;background:#f0f5f9a8;font:bold 24px Georgia,serif;color:#42627e}
+.fb-social-actions{border-block:1px solid #dbe3ec;display:flex;justify-content:space-around;gap:7px;padding:12px 8px;color:#68798a;font-size:11px;font-weight:600}
+.fb-caption-bottom{font-size:10px;padding:10px 14px;color:#84929d;background:#f8fafb}
+/* Realistic ecommerce mock landing (its CTA only explains a demo; never collects info). */
+.landing-stage{padding:18px;background:linear-gradient(150deg,#354b60,#263647)}
+.landing-browser{width:100%;overflow:hidden;border:1px solid #c7d2df;border-radius:12px;box-shadow:0 11px 37px #111d2a70;background:#f8fafb;color:#24384a;font-family:Arial,system-ui,sans-serif}
+.landing-browser-bar{min-height:34px;display:flex;align-items:center;justify-content:space-between;gap:10px;background:#e5ebf1;border-bottom:1px solid #c5d0dc;padding:6px 13px;color:#6a7a8c;font-size:10px}
+.browser-dots{letter-spacing:2px;color:#9cabb8}.browser-url{border-radius:6px;background:#fff;padding:5px 13px;max-width:70%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.landing-page{background:#f4f7f8}
+.landing-brand-bar{display:flex;justify-content:space-between;gap:8px;align-items:center;padding:16px 25px;border-bottom:1px solid #d8e0e6}
+.landing-brand-bar strong{font-size:18px;letter-spacing:.18em}.landing-brand-bar span{font:9px Arial,sans-serif;color:#667f93;letter-spacing:.03em}
+.landing-hero{min-height:390px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);align-items:center;gap:14px;padding:26px 30px}
+.landing-copy{min-width:0}.landing-edition{font:10px var(--mono);color:#6885a0;letter-spacing:.04em}
+.landing-copy h5{font-size:clamp(26px,3.5vw,45px);line-height:1.06;letter-spacing:-.05em;color:#293e52;margin:14px 0}
+.landing-copy>p{font-size:13px;color:#596e81;line-height:1.65;margin:0 0 14px}
+.landing-promo{font-size:11px;padding:11px;border-left:3px solid #849fb8;background:#e3ebf2;color:#4a6175;line-height:1.5}
+.landing-demo-button{display:flex;gap:14px;align-items:center;justify-content:space-between;margin:17px 0 0;padding:12px 16px;background:#293e52;border:1px solid #293e52;border-radius:6px;font-weight:750;color:#f5f8fb;cursor:pointer;font-size:12px;min-height:44px}
+.landing-demo-button:hover,.landing-demo-button:focus-visible{background:#45627e;color:#fff}
+.landing-demo-feedback{display:block;font-size:11px;line-height:1.4;color:#4d667c;margin-top:8px}
+.landing-visual{position:relative;min-height:340px;display:flex;align-items:center;justify-content:center}
+.landing-product-orbit{position:absolute;width:85%;aspect-ratio:1;border-radius:100%;border:1px solid #91abc466;box-shadow:0 0 0 32px #b7cbdc44,0 0 0 65px #bed0df26}
+.landing-visual img{position:relative;max-width:80%;height:330px;filter:drop-shadow(9px 14px 16px #455d7751);transform:rotate(-6deg)}
+.landing-rune{position:absolute;top:10%;right:6%;border:1px solid #94b1ca;background:#eaf2f8;color:#6885a2;border-radius:50%;width:45px;height:45px;font:bold 24px Georgia,serif}
+.landing-terms{padding:11px 24px;border-top:1px solid #d6e0e9;color:#7e8d9b;font-size:10px;line-height:1.5}
+/* Optional letter puzzle is one quiet conclusion, not another gallery. */
+.campaign-code-room{border-top:1px solid #90a4bd70;padding:25px 0 4px;max-width:850px;margin:10px auto 0}
+.campaign-code-room h4{font-size:clamp(23px,3vw,33px);margin:10px 0;letter-spacing:-.04em}
+.campaign-code-room>p{color:#bbcbdb;font-size:13px;line-height:1.6;margin-bottom:16px;max-width:650px}
+.campaign-clue-track{display:flex;gap:10px;margin:14px 0 19px}
+.campaign-clue-track>span{display:grid;place-items:center;border-bottom:2px solid #6e849d;width:44px;height:42px;color:#c2d4e8;font-size:23px;font-weight:750}
+.campaign-clue-track>span.found{border-color:#c2dfc8;color:#e1f2e9}
+.campaign-code-room .secret-form{margin-top:0}
+@media(max-width:780px){
+ .campaign-material{margin-bottom:43px}.landing-hero{padding:19px;gap:0}
+ .landing-brand-bar{padding:12px 17px}.fb-creative-copy{padding-left:21px}
+}
+@media(max-width:560px){
+ .story-shell #marketing #lab-secret{padding:10px}
+ .campaign-walkthrough-intro h3{font-size:25px}.campaign-walkthrough-intro p{font-size:13px}
+ .campaign-sequence{font-size:8px;gap:5px;margin-bottom:25px}
+ .material-head{gap:4px}.material-head h4{flex-basis:100%;order:2;font-size:23px}.material-head small{order:1}
+ .material-stage{padding:12px;border-radius:10px}.actual-flyer{min-height:0;padding:18px 17px 18px}.flyer-ad-hero{height:205px}.flyer-ad-hero img{height:210px}.flyer-creative-head b{font-size:14px}
+ .flyer-ad-copy>strong{font-size:29px}.flyer-deal strong{font-size:20px}.flyer-deal p{font-size:9px}
+ .material-action{gap:8px}.material-action p{flex-basis:100%;font-size:12px}.material-reveal{flex:1 1 auto}
+ .story-phone{width:min(100%,296px)}.story-stage{padding:13px;min-height:0}
+ .post-stage{padding:9px}.facebook-head{padding:12px 10px 7px}.facebook-caption{font-size:12px;padding:0 10px 10px}.fb-creative{min-height:182px}.fb-creative-copy{padding:15px 0 15px 13px}.fb-creative-copy>strong{font-size:27px}.fb-creative img{max-width:52%}.fb-hidden-letter{right:11px;top:9px;width:34px;height:34px;font-size:19px}.fb-social-actions{font-size:9px;gap:3px;padding:11px 5px}.fb-caption-bottom{font-size:9px}
+ .landing-stage{padding:6px}.landing-brand-bar{padding:11px}.landing-brand-bar strong{font-size:14px}.landing-brand-bar span{font-size:7px}.landing-brand-bar span:nth-child(2){display:none}
+ .landing-hero{display:flex;flex-direction:column-reverse;padding:12px;gap:1px}.landing-visual{min-height:184px;width:100%}.landing-visual img{height:198px}.landing-visual .landing-rune{width:33px;height:33px;font-size:19px;right:14%}
+ .landing-copy h5{font-size:27px;margin:9px 0}.landing-copy>p{font-size:11px;margin:0 0 9px}.landing-promo{font-size:10px}.landing-edition{font-size:8px}
+ .landing-browser-bar{font-size:8px;padding:5px}.landing-terms{font-size:9px;padding:10px}.browser-url{max-width:75%;padding:5px}
+ .campaign-code-room{padding-top:20px}
+}
+@media(max-width:370px){
+ .actual-flyer{padding:13px}.flyer-ad-hero{height:167px}.flyer-ad-hero img{height:186px}
+ .flyer-ad-copy>strong{font-size:25px}.flyer-deal{gap:7px}.flyer-deal strong{font-size:18px}.flyer-date{font-size:8px}
+ .fb-social-actions{font-size:8px}.story-phone{max-width:95%}
+ .material-stage{padding:8px}.landing-stage{padding:4px}
+}
+@media(prefers-reduced-motion:reduce){.campaign-material .material-letter{transition:none!important}}

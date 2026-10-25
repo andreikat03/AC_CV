@@ -1,0 +1,127 @@
+[
+  {
+    "test": "main unique IDs",
+    "status": "PASS",
+    "detail": "{}"
+  },
+  {
+    "test": "main img alternative text",
+    "status": "PASS",
+    "detail": "0"
+  },
+  {
+    "test": "main button accessible names",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "test": "main relative resource links",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "test": "main heading hierarchy",
+    "status": "PASS",
+    "detail": "h1 count 1"
+  },
+  {
+    "test": "detail unique IDs",
+    "status": "PASS",
+    "detail": "{}"
+  },
+  {
+    "test": "detail img alternative text",
+    "status": "PASS",
+    "detail": "0"
+  },
+  {
+    "test": "detail button accessible names",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "test": "detail relative resource links",
+    "status": "PASS",
+    "detail": "[]"
+  },
+  {
+    "test": "detail heading hierarchy",
+    "status": "PASS",
+    "detail": "h1 count 1"
+  },
+  {
+    "test": "who.js JS syntax",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "plan.js JS syntax",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "proof.js JS syntax",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "app.js JS syntax",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "marketing.js JS syntax",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "analiza-plan-detaliat.js JS syntax",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "Candidate name without diacritics",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "Creative Assets chapter removed",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "Calendar exact link",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "market metric Romania 2025",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "DetailLane video metadata",
+    "status": "PASS",
+    "detail": "{'programs': [], 'stream_groups': [], 'streams': [{'codec_name': 'h264', 'width': 1920, 'height': 1080}], 'format': {'format_name': 'mov,mp4,m4a,3gp,3g2,mj2', 'duration': '46.000000'}}"
+  },
+  {
+    "test": "DetailLane full decode",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "HTTP all page resources",
+    "status": "PASS",
+    "detail": "24 requests, errors: []"
+  },
+  {
+    "test": "no-JS chapters accessible",
+    "status": "PASS",
+    "detail": ""
+  },
+  {
+    "test": "reduced motion script activation",
+    "status": "PASS",
+    "detail": ""
+  }
+]

@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<meta content="#202833" name="theme-color"/>
+<meta content="Andrei Catana — o candidatură interactivă pentru un rol în marketing: experiență, idei, proiecte reale și o invitație la discuție." name="description"/>
+<title>THE APPLICATION.exe — Andrei Catana | Candidatură marketing</title>
+<link href="./favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="./styles.css" rel="stylesheet"/>
+<link href="./marketing.css" rel="stylesheet"/>
+<link href="./ux.css" rel="stylesheet"/>
+<script defer="" src="./marketing.js"></script>
+<script defer="" src="./app.js"></script><script defer="" src="./who.js"></script>
+<link href="./story.css" rel="stylesheet"/><link href="./campaign-clarity.css" rel="stylesheet"/><link href="./narrative.css" rel="stylesheet"/><link href="./campaign-visuals.css" rel="stylesheet"/><link href="./who.css" rel="stylesheet"/><link href="./proof.css" rel="stylesheet"/>
+<link href="./plan.css" rel="stylesheet"/>
+<script defer src="./proof.js"></script>
+<script defer src="./plan.js"></script>
+<noscript><style>.story-shell.before-story .story-chapter{display:flex!important}.story-dots{display:none!important}.intro-screen{min-height:auto!important}.no-js-message{display:block!important}</style></noscript>
+</head>
+<body>
+<div class="app-shell story-shell before-story" id="appShell">
+<div aria-hidden="true" class="world-grid"></div>
+<div aria-hidden="true" class="ambient ambient-one"></div>
+<div aria-hidden="true" class="ambient ambient-two"></div>
+<div aria-hidden="true" class="orbit-line orbit-line-one"></div>
+<div aria-hidden="true" class="orbit-line orbit-line-two"></div>
+<header aria-label="Sunet opțional" class="topbar">
+<div class="top-actions">
+<button aria-label="Activează sunetul" aria-pressed="false" class="icon-button" id="soundButton" title="Sunet dezactivat" type="button">
+<svg aria-hidden="true" class="sound-off-icon" fill="none" viewbox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5ZM16 9l5 6m0-6-5 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.65"></path></svg>
+<svg aria-hidden="true" class="sound-on-icon" fill="none" viewbox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5ZM15 9a4 4 0 0 1 0 6m3-9a8 8 0 0 1 0 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.65"></path></svg>
+<span class="control-text" id="soundLabel">SOUND OFF</span>
+</button>
+</div>
+</header>
+<nav aria-label="Sari la un capitol" class="story-dots" hidden="" id="storyDots">
+<button aria-label="01 — Who Am I?" class="story-dot" data-target="who" type="button"><span aria-hidden="true" class="dot-core"></span><span class="dot-tooltip">Who Am I?</span></button>
+<button aria-label="02 — Marketing Lab" class="story-dot" data-target="marketing" type="button"><span aria-hidden="true" class="dot-core"></span><span class="dot-tooltip">Marketing Lab</span></button>
+<button aria-label="03 — Proof of Work" class="story-dot" data-target="proof" type="button"><span aria-hidden="true" class="dot-core"></span><span class="dot-tooltip">Proof of Work</span></button>
+<button aria-label="04 — My First 30 Days" class="story-dot" data-target="plan" type="button"><span aria-hidden="true" class="dot-core"></span><span class="dot-tooltip">My First 30 Days</span></button>
+<button aria-label="05 — Final Decision" class="story-dot" data-target="decision" type="button"><span aria-hidden="true" class="dot-core"></span><span class="dot-tooltip">Final Decision</span></button>
+</nav><main id="mainContent" tabindex="-1">
+<!-- 00 / THE HOOK -->
+<section aria-labelledby="introTitle" class="screen intro-screen is-active" id="intro">
+<div class="hero-copy">
+<div class="eyebrow enter enter-one"><span aria-hidden="true" class="eyebrow-line"></span><span>CHAPTER 00</span><span aria-hidden="true" class="divider-slash">/</span><span>PERSONAL ACCESS</span></div>
+<div class="headlines enter enter-two">
+<p class="intro-kicker">NEW RECRUITER DETECTED <span aria-hidden="true" class="tiny-spark">✳</span></p>
+<h1 id="introTitle">Salut, <span class="name-accent">Ioana<span class="name-stop">.</span></span></h1>
+<p class="hook-statement">Nu am experiența<br class="desktop-break"/> pe care o cauți<span class="period-accent">.</span></p>
+</div>
+<p class="hook-description enter enter-three">Dar în loc să-ți trimit un CV obișnuit, am preferat să-ți <strong>construiesc ceva.</strong></p>
+<div class="recruiter-note enter enter-three"><span aria-hidden="true" class="note-icon">↳</span><span>O experiență interactivă. Câteva minute. Fără PowerPoint.</span></div>
+<div class="cta-group enter enter-four">
+<button class="primary-button" id="startButton" type="button">
+<span>Da, vreau să te cunosc</span><span aria-hidden="true" class="button-arrow">↗</span>
+</button>
+<div class="secondary-wrap">
+<span class="secondary-caption" id="secondaryCaption">Acest buton nu merge ↓</span>
+<button aria-describedby="secondaryCaption" class="secondary-button" id="noButton" type="button"><span id="noButtonText">Nu mă interesează</span></button>
+</div>
+</div>
+<button class="intro-skip" data-scroll-to="decision" type="button">Mergi direct la concluzie <span aria-hidden="true">↗</span></button>
+<button class="intro-decline" id="introExitButton" type="button">Încheie experiența</button></div>
+</section>
+<noscript><p class="no-js-message" role="status">JavaScript este dezactivat. Poți citi candidatura mai jos; jocurile interactive necesită JavaScript.</p></noscript>
+<!-- FIRST CONTACT / Etapa 1 bridge kept as a welcome screen -->
+<!-- OPEN / HYBRID MISSION SELECT -->
+<!-- THE NARRATIVE / A continuous series of chapters -->
+<!-- MARKETING LAB / Etapa 3 — demo campaigns for a fictional beauty brand -->
+<section aria-labelledby="whoTitle" class="screen story-chapter story-simple who-chapter" data-chapter="who" data-unlocked="true" id="who">
+  <div class="story-inner who-inner">
+    <div class="who-intro who-moment" id="who-intro">
+      <div class="who-intro-grid">
+        <div class="who-opening-copy">
+          <p class="story-kicker">CHAPTER 01 <span>/ 05</span> <span class="who-kicker-name">WHO AM I?</span></p>
+          <h2 id="whoTitle">Salut,<br/><span>din nou<span class="story-stop">.</span></span></h2>
+          <div class="who-id"><span class="who-id-dot" aria-hidden="true"></span><span>ANDREI</span><i aria-hidden="true"></i><span>23 DE ANI</span><i aria-hidden="true"></i><span>PITEȘTI</span></div>
+          <p>Sunt Andrei, am 23 de ani și sunt din Pitești.</p>
+          <p class="who-intro-interest">Îmi plac <strong>vânzările</strong>, <strong>marketingul</strong>, <strong>tehnologia</strong> și cam tot ce ține de <strong>partea creativă</strong>.</p>
+          <p>Unul dintre punctele mele forte este creativitatea. O am de când eram mic și cred că este unul dintre lucrurile care mă caracterizează cel mai bine.</p>
+        </div>
+        <div class="who-idea-visual" aria-label="Ilustrație abstractă: ideile pornesc din câteva forme simple și se conectează" role="img">
+          <div class="who-visual-header"><span>IDEA / IN PROGRESS</span><span class="who-visual-live" aria-hidden="true">●</span></div>
+          <svg class="who-idea-svg" viewBox="0 0 440 420" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="whoIdeaGradient" x1="91" y1="70" x2="354" y2="329"><stop stop-color="#B7C9E1"/><stop offset="1" stop-color="#7893B4"/></linearGradient><radialGradient id="whoIdeaHaze"><stop stop-color="#99B1D3" stop-opacity=".27"/><stop offset="1" stop-color="#99B1D3" stop-opacity="0"/></radialGradient></defs>
+            <ellipse cx="225" cy="202" rx="175" ry="164" fill="url(#whoIdeaHaze)"/>
+            <circle class="who-draw-loop" cx="224" cy="205" r="125" stroke="#AAC0DC" stroke-opacity=".25" stroke-width="1.2" stroke-dasharray="3 7"/>
+            <path class="who-sketch-line" d="M90 220 L159 137 L245 193 L329 105 L358 242 L255 301 L151 297 Z" stroke="url(#whoIdeaGradient)" stroke-opacity=".65" stroke-width="1.4" stroke-linejoin="round"/>
+            <path class="who-sketch-line who-sketch-line-late" d="M159 137 L151 297 L245 193 L255 301 M245 193 L358 242" stroke="#B8CAE3" stroke-opacity=".45" stroke-width="1.4" stroke-linecap="round"/>
+            <circle class="who-node who-node-a" cx="90" cy="220" r="12" fill="#BCCFE8"/>
+            <rect class="who-node who-node-b" x="147" y="125" width="24" height="24" rx="6" transform="rotate(12 159 137)" fill="#627F9E" stroke="#B6CAE3" stroke-width="1.8"/>
+            <circle class="who-node who-node-c" cx="245" cy="193" r="27" fill="#273A50" stroke="#B5C9E2" stroke-width="1.5"/>
+            <path d="M238 193l5 5 10-12" stroke="#D3E2F3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle class="who-node who-node-d" cx="329" cy="105" r="14" stroke="#AAC3E1" stroke-width="3"/>
+            <rect class="who-node who-node-e" x="346" y="230" width="24" height="24" rx="5" transform="rotate(-15 358 242)" fill="#90A7C4"/>
+            <circle class="who-node who-node-f" cx="255" cy="301" r="9" fill="#CAD7E6"/>
+            <circle class="who-node who-node-g" cx="151" cy="297" r="14" stroke="#9EBCD9" stroke-width="2"/>
+            <path d="M72 98h53M72 98v30M359 322h-44M359 322v-27" stroke="#90A6C2" stroke-opacity=".42" stroke-width="1"/>
+            <text x="69" y="82" fill="#BACCE3" font-family="monospace" font-size="12" letter-spacing="2">01 / IDEA</text>
+            <text x="303" y="351" fill="#A9BFD6" font-family="monospace" font-size="11" letter-spacing="1">TRY → FIX</text>
+          </svg>
+          <div class="who-visual-footer"><span>CURIOZITATE × ÎNCERCĂRI</span><span>↗</span></div>
+        </div>
+      </div>
+      <div class="who-first-bottom">
+        <div class="who-first-plain"><p>În general, când îmi vine o idee, îmi place să văd dacă o pot pune în practică.</p><p>În rest, sunt curios din fire. Dacă mă interesează ceva, de obicei vreau să aflu cum funcționează și, eventual, să încerc și eu.</p></div>
+        <blockquote class="who-humor"><span class="who-quote-mark" aria-hidden="true">“</span><p>Uneori îmi iese din prima, alteori stau câteva zile să rezolv o problemă pe care probabil tot eu am creat-o.</p><span class="who-quote-caption">SE MAI ÎNTÂMPLĂ.</span></blockquote>
+      </div>
+    </div>
+
+    <div class="who-moment who-experience" id="who-experience">
+      <div class="who-section-heading"><span class="who-step">02 / EXPERIENCE</span><h3>Bun. Și ce am făcut<br/><em>până acum?</em></h3></div>
+      <div class="who-experience-layout">
+        <div class="who-experience-prose">
+          <p>Am aproximativ șase luni de experiență în vânzări B2B și alte șase luni în HR și recrutare, în cadrul AIESEC.</p>
+          <p>În vânzări am discutat cu firme, am căutat parteneri și am prezentat oportunități de recrutare internațională. Am colaborat cu oameni din mai multe țări și am ținut inclusiv o prezentare online în fața a aproximativ 200 de participanți din Vietnam.</p>
+          <p>Am mai încercat și alte lucruri, destul de diferite între ele. Nu toate au fost de durată, dar am vrut să văd cum e să lucrez și în alte domenii.</p>
+        </div>
+        <div class="who-timeline" aria-label="Repere din experiența profesională">
+          <div class="who-timeline-rail" aria-hidden="true"></div>
+          <div class="who-timeline-item"><span class="who-timeline-point" aria-hidden="true"></span><div class="who-timeline-meta">AIESEC <span>≈ 6 LUNI</span></div><strong>B2B Sales</strong><small>Companii · parteneriate · oportunități internaționale</small></div>
+          <div class="who-timeline-item"><span class="who-timeline-point" aria-hidden="true"></span><div class="who-timeline-meta">AIESEC <span>≈ 6 LUNI</span></div><strong>HR &amp; Recruitment</strong><small>Oameni · recrutare · selecție</small></div>
+          <div class="who-timeline-highlight"><span class="who-timeline-highlight-icon" aria-hidden="true">◌</span><div><span>UN MOMENT CARE MI-A RĂMAS ÎN MINTE</span><strong>≈ 200 de participanți</strong><small>Prezentare online · Vietnam</small></div></div>
+          <div class="who-other-experience" aria-label="Alte experiențe încercate">
+            <span class="who-other-kicker">AM MAI ÎNCERCAT ȘI...</span>
+            <div class="who-other-roles">
+              <span>Mecanic auto</span>
+              <span>Animator pentru copii</span>
+              <span>Training în consultanță financiară</span>
+            </div>
+            <small>Experiențe scurte, în domenii diferite.</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="who-moment who-projects" id="who-projects">
+      <div class="who-section-heading"><span class="who-step">03 / SIDE PROJECTS</span><h3>Și ce fac<br/><em>în timpul liber?</em></h3><p class="who-small-intro">Depinde. De obicei îmi găsesc singur ceva de făcut.</p></div>
+      <p class="who-projects-lead">Îmi place să lucrez la proiecte personale, mai ales dacă pot combina tehnologia cu partea creativă.</p>
+      <div class="who-project-layout">
+        <div class="who-project-description">
+          <div class="who-project-label"><span class="who-project-label-dot" aria-hidden="true"></span>PROIECT PERSONAL / DETAILLANE</div>
+          <h4>DetailLane<span class="story-stop">.</span></h4>
+          <p>Un exemplu este <strong>DetailLane</strong>, o aplicație pentru firmele de detailing auto. Am început cu ideea de a simplifica ofertele, programările și gestionarea clienților, iar de acolo am tot adăugat funcționalități.</p>
+          <p>Am încercat inclusiv să o vând unor firme reale. Am primit răspunsuri bune, refuzuri și feedback pe care l-am folosit pentru a îmbunătăți aplicația.</p>
+        </div>
+        <div class="who-product-demo" aria-label="Ilustrație schematică a celor trei funcții DetailLane">
+          <div class="who-demo-window">
+            <div class="who-demo-toolbar"><div class="who-demo-brand"><span class="who-demo-logo">D</span><strong>DetailLane</strong></div><div class="who-demo-window-dots" aria-hidden="true"><i></i><i></i><i></i></div></div>
+            <div class="who-demo-main">
+              <div class="who-demo-mini-sidebar" aria-hidden="true"><span class="active">◫</span><span>▤</span><span>◎</span></div>
+              <div class="who-demo-content">
+                <span class="who-demo-overline">PREVIZUALIZARE SCHEMATICĂ</span>
+                <h5 id="detailDemoTitle">Oferte</h5>
+                <div class="who-demo-stage" id="detailDemoStage" role="status" aria-live="polite">
+                  <div class="who-demo-workflow"><span>Servicii</span><b>→</b><span>Ofertă</span><b>→</b><span>PDF</span></div>
+                  <div class="who-demo-ghost-line"></div><div class="who-demo-ghost-line short"></div><div class="who-demo-ghost-line tiny"></div>
+                </div>
+              </div>
+            </div>
+            <div class="who-demo-tabs" role="group" aria-label="Explorează funcțiile aplicației">
+              <button type="button" data-detail-view="offers" class="is-selected" aria-pressed="true">Oferte</button>
+              <button type="button" data-detail-view="schedule" aria-pressed="false">Programări</button>
+              <button type="button" data-detail-view="clients" aria-pressed="false">Clienți</button>
+            </div>
+          </div>
+          <p class="who-demo-disclaimer">Ilustrație conceptuală, nu captură din aplicație. Fără date reale.</p>
+        </div>
+      </div>
+      <div class="who-other-interests"><p>În rest, experimentez cu AI, programare, design și animații. Nu sunt expert în toate, evident, dar îmi place să învăț și să văd ce pot face cu lucrurile pe care le descopăr.</p><div class="who-interest-line" aria-label="Interese: AI, programare, design și animații"><span>AI</span><i></i><span>PROGRAMARE</span><i></i><span>DESIGN</span><i></i><span>ANIMAȚII</span></div></div>
+    </div>
+
+    <div class="who-moment who-why" id="who-why">
+      <div class="who-section-heading"><span class="who-step">04 / WHY MARKETING?</span><h3>Și de ce<br/><em>marketing?</em></h3></div>
+      <div class="who-why-grid">
+        <div class="who-why-copy"><p>Pentru că îmi plac atât partea creativă, cât și cea comercială.</p>
+          <p>Mă interesează cum promovezi un produs, cum atragi atenția oamenilor, cum îi convingi să încerce ceva nou și ce faci ca să revină.</p>
+          <p>Mi se pare interesant că poți avea un produs foarte bun, dar dacă nu știi cum să-l prezinți și cui să-l prezinți, s-ar putea să nu ajungă nicăieri.</p>
+          <p>Am studiat domeniul și vreau să acumulez experiență practică, să lucrez la campanii și să văd ce funcționează și ce nu.</p>
+        </div>
+        <div class="who-why-diagram" aria-label="Creativitate și gândire comercială se întâlnesc în marketing" role="img"><span class="who-diagram-kicker">DOUĂ LUCRURI CARE ÎMI PLAC</span><div class="who-diagram-orbit"><div class="who-diagram-half who-diagram-left">CREATIVITATE</div><div class="who-diagram-plus">+</div><div class="who-diagram-half who-diagram-right">GÂNDIRE<br/>COMERCIALĂ</div></div><div class="who-diagram-result"><span>↓</span><strong>MARKETING</strong></div></div>
+      </div>
+      <div class="who-final-passage"><p>Cât despre candidatura asta, puteam să trimit un CV obișnuit și să termin în cinci minute.</p><p>Dar mi-a venit ideea să fac ceva diferit și am zis să încerc.</p><p class="who-final-line">Bun, acum că am făcut cunoștință, hai să-ți arăt câteva idei de marketing.</p></div>
+      <div class="story-next who-next"><button class="primary-button compact" data-scroll-to="marketing" type="button">Hai să vedem ideile <span aria-hidden="true">↗</span></button></div>
+    </div>
+  </div>
+</section><section aria-labelledby="labHeading" class="screen content-screen lab-screen story-chapter" data-chapter="marketing" data-unlocked="true" id="marketing">
+<div class="content-container lab-container">
+<!-- LAB HUB -->
+<div class="lab-view" id="lab-hub">
+<div class="narrative-opening">
+<span class="narrative-label">CHAPTER 02 / UN EXPERIMENT DE MARKETING</span>
+<h2 id="labHeading">Trei probleme. <em>Un singur parcurs.</em></h2>
+<p>Hai să ne imaginăm că lansăm un produs nou pentru brandul fictiv NOCTIS. Eu aș începe cu trei întrebări: cum află oamenii de el, cum îi implicăm și de ce ar reveni?</p>
+<span class="narrative-disclaimer">Toate materialele sunt concepte. Nu sunt campanii executate sau rezultate măsurate.</span>
+</div>
+<div aria-hidden="true" class="narrative-bindings" id="labBindings"><div aria-live="polite" class="lab-progress" role="status"><span>CAMPAIGNS EXPLORED</span><div class="lab-progress-track" id="labProgressTrack"><i></i><i></i><i></i></div><strong id="labProgressCount">0 / 3</strong></div><span class="lab-visited" id="labStatusSecret">NEEXPLORATĂ</span><span class="lab-visited" id="labStatusPlay">NEEXPLORATĂ</span><span class="lab-visited" id="labStatusCircle">NEEXPLORATĂ</span></div>
+<section aria-labelledby="actOneTitle" class="narrative-act" id="act-awareness">
+<div class="narrative-act-top"><span>01 / AWARENESS</span><span>THE SECRET LAUNCH</span></div>
+<h3 id="actOneTitle">Avem un produs nou.<br/><em>Dar cine știe de el?</em></h3>
+<p class="narrative-act-lead">Nu aș începe cu „Cumpără acum”. Aș da oamenilor un motiv să țină minte lansarea: un flyer cu o ofertă clară, urmat de mici indicii digitale.</p>
+<div class="narrative-demo-layout">
+<div aria-label="Flyer demonstrativ NOCTIS" class="narrative-flyer-preview"><div class="narrative-flyer-head"><span>NOCTIS</span><span>15.11 · DEMO</span></div><div class="narrative-flacon">N</div><span class="narrative-flyer-kicker">UN NOU RITUAL SE APROPIE</span><strong>Something good<br/>is coming.</strong><p>Ser cosmetic de zi · aspect luminos</p><div class="narrative-offer"><b>25–50%</b><span>discount demonstrativ la al doilea produs eligibil, doar în ziua lansării*</span></div><small>*Ipoteză comercială, fără ofertă reală; necesită reguli și marje validate.</small><span aria-label="Indiciul vizual inițial" class="narrative-first-clue">I</span></div>
+<div class="narrative-demo-copy"><span class="narrative-label">PRIMUL CONTACT</span><h4>Flyerul trebuie să merite păstrat.</h4><p>Data și oferta sunt suficiente și fără puzzle. Indiciile sunt doar un motiv în plus să descoperi Story-ul, postarea și pagina de lansare.</p><button class="primary-button compact narrative-trigger" data-go="marketing/secret" type="button">Explorează lansarea ↗</button><p class="narrative-secondary-info">Opțional: inspectezi cele patru materiale și descoperi codul. Ideea funcționează și fără joc.</p></div>
+</div>
+<div class="narrative-takeaway"><span>DECIZIA MEA</span><p>Aș pilota într-o singură locație. Dacă traficul generat nu justifică printul și reducerea, nu aș extinde campania.</p><button class="narrative-inline" data-strategy-entry="secret" type="button">Costuri și riscuri ↗</button></div>
+<div class="lab-view" hidden="" id="lab-secret">
+  <div class="campaign-walkthrough" aria-label="Patru materiale din aceeași campanie demonstrativă">
+    <div class="campaign-walkthrough-intro">
+      <span class="lab-overline">NOCTIS / THE SECRET LAUNCH · EXPERIENȚĂ OPȚIONALĂ</span>
+      <h3>Patru materiale. O lansare.</h3>
+      <p>Urmărește campania așa cum ar întâlni-o un client: întâi un flyer, apoi un Story, o postare și pagina de lansare. În fiecare material se ascunde o literă. Le poți descoperi fără să întrerupi povestea.</p>
+    </div>
+    <div class="campaign-sequence" aria-hidden="true"><span>FLYER</span><i></i><span>STORY</span><i></i><span>POSTARE</span><i></i><span>PAGINĂ</span></div>
+
+    <section class="campaign-material material-flyer" id="material-flyer" aria-labelledby="materialFlyerTitle">
+      <div class="material-head"><span>01 / MATERIAL PRINTAT</span><h4 id="materialFlyerTitle">Flyer de lansare</h4><small>Distribuit în magazin · concept fictiv</small></div>
+      <div class="material-stage flyer-stage">
+        <article class="actual-flyer" aria-label="Flyer promoțional NOCTIS, concept fictiv">
+          <div class="flyer-creative-head"><b>NOCTIS</b><span>BEAUTY LAB · CONCEPT</span></div>
+          <div class="flyer-ad-hero"><div class="flyer-ad-glow"></div><img src="./assets/noctis-serum.svg" alt="Produs fictiv NOCTIS Daily Glow" loading="lazy"/><span class="creative-motif material-letter" aria-label="Literă ascunsă">I</span></div>
+          <div class="flyer-ad-copy"><span class="ad-overline">O NOUĂ RUTINĂ ÎNCEPE</span><strong>Something good<br>is coming.</strong><p>NOCTIS Daily Glow · ser cosmetic de zi · aspect luminos</p><div class="flyer-date">LANSARE DEMO <b>15 NOIEMBRIE 2026</b></div><div class="flyer-deal"><strong>25–50% <small>REDUCERE DEMO</small></strong><p>La al doilea produs eligibil, doar la cumpărarea noutății în ziua lansării.*</p></div><small class="flyer-terms">*Concept fictiv. Condițiile, stocurile și marjele necesită aprobare. Oferta nu este reală și nu depinde de puzzle.</small></div>
+        </article>
+      </div>
+      <div class="material-action"><p>Ai primit flyerul într-un magazin. Observi și un mic semn ascuns în design.</p><button class="material-reveal" data-clue="flyer" aria-controls="clue-flyer" aria-expanded="false" type="button">Descoperă indiciul <span aria-hidden="true">↗</span></button><span class="material-discovered" id="clue-flyer" aria-live="polite">Indiciu nedescoperit</span></div>
+    </section>
+
+    <section class="campaign-material material-story" id="material-story" aria-labelledby="materialStoryTitle">
+      <div class="material-head"><span>02 / SOCIAL STORY</span><h4 id="materialStoryTitle">Instagram Story</h4><small>Teaser vertical · concept fictiv</small></div>
+      <div class="material-stage story-stage">
+        <div class="story-phone" aria-label="Simulare de Instagram Story, neafiliată platformei">
+          <div class="story-phone-notch" aria-hidden="true"></div>
+          <div class="story-progress" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="story-profile"><div class="social-avatar">N</div><b>noctis.beauty</b><span>• concept demo</span><b class="story-more" aria-hidden="true">•••</b></div>
+          <div class="story-poster"><div class="story-halo"></div><img src="./assets/noctis-serum.svg" alt="Ser fictiv NOCTIS Daily Glow prezentat într-un Story" loading="lazy"/><span class="story-creative-rune material-letter" aria-label="Literă ascunsă">D</span></div>
+          <div class="story-message"><span>CEVA NOU SE APROPIE</span><strong>Ritualul începe<br>în curând.</strong><p>15 NOIEMBRIE · NOCTIS DAILY GLOW</p><div class="story-countdown"><span>COUNTDOWN · DEMO</span><b>15 · 11 · 26</b></div></div>
+          <div class="story-reply" aria-hidden="true">Trimite un mesaj <span>♡　➤</span></div>
+        </div>
+        <span class="material-demo-mark">SIMULARE STORY · FĂRĂ CONT REAL</span>
+      </div>
+      <div class="material-action"><p>În zilele următoare, aceeași campanie apare ca teaser în format Story.</p><button class="material-reveal" data-clue="story" aria-controls="clue-story" aria-expanded="false" type="button">Descoperă indiciul <span aria-hidden="true">↗</span></button><span class="material-discovered" id="clue-story" aria-live="polite">Indiciu nedescoperit</span></div>
+    </section>
+
+    <section class="campaign-material material-post" id="material-post" aria-labelledby="materialPostTitle">
+      <div class="material-head"><span>03 / FEED SOCIAL</span><h4 id="materialPostTitle">Facebook Post</h4><small>Postare de brand · concept fictiv</small></div>
+      <div class="material-stage post-stage">
+        <article class="facebook-post" aria-label="Simulare postare Facebook pentru brandul fictiv NOCTIS">
+          <div class="facebook-head"><span class="fb-avatar">N</span><div><strong>NOCTIS Beauty</strong><small>Pagină fictivă · postare demonstrativă 🌐</small></div><span aria-hidden="true" class="fb-more">···</span></div>
+          <p class="facebook-caption">În curând, un nou produs se alătură ritualului tău. Descoperă NOCTIS Daily Glow pe 15 noiembrie. ✨<br><small>#NOCTIS #DailyGlow #LaunchConcept</small></p>
+          <div class="fb-creative"><div class="fb-creative-copy"><span>15.11.2026</span><strong>Un nou<br>ritual.</strong><small>NOCTIS / DAILY GLOW</small></div><img src="./assets/noctis-serum.svg" alt="Produs cosmetic fictiv NOCTIS ilustrat în postarea socială" loading="lazy"/><span class="fb-hidden-letter material-letter" aria-label="Literă ascunsă">E</span></div>
+          <div class="fb-social-actions" aria-label="Elemente vizuale inactive: reacție, comentariu și distribuire"><span>♡ Îmi place</span><span>▤ Comentează</span><span>↗ Distribuie</span></div>
+          <div class="fb-caption-bottom">Simulare de interfață · fără like-uri ori comentarii reale</div>
+        </article>
+      </div>
+      <div class="material-action"><p>Postarea apare în feed, cu vizualul produsului și data lansării.</p><button class="material-reveal" data-clue="post" aria-controls="clue-post" aria-expanded="false" type="button">Descoperă indiciul <span aria-hidden="true">↗</span></button><span class="material-discovered" id="clue-post" aria-live="polite">Indiciu nedescoperit</span></div>
+    </section>
+
+    <section class="campaign-material material-landing" id="material-landing" aria-labelledby="materialLandingTitle">
+      <div class="material-head"><span>04 / DESTINAȚIE DIGITALĂ</span><h4 id="materialLandingTitle">Landing Page</h4><small>Microsite de lansare · concept fictiv</small></div>
+      <div class="material-stage landing-stage">
+        <div class="landing-browser" aria-label="Simulare landing page comercial NOCTIS">
+          <div class="landing-browser-bar"><span class="browser-dots" aria-hidden="true">● ● ●</span><span class="browser-url">🔒 noctis.example / daily-glow</span><span aria-hidden="true">↗</span></div>
+          <div class="landing-page">
+            <header class="landing-brand-bar"><strong>NOCTIS</strong><span>THE DAILY GLOW EDIT</span><span>CONCEPT DEMO</span></header>
+            <div class="landing-hero"><div class="landing-copy"><span class="landing-edition">NOUTATE · 15 NOIEMBRIE 2026</span><h5>Un ritual nou.<br>Un moment al tău.</h5><p>Descoperă conceptul NOCTIS Daily Glow — un ser cosmetic de zi, imaginat pentru o rutină simplă și un aspect luminos.</p><div class="landing-promo">25–50% reducere demo la al doilea produs eligibil, la cumpărarea produsului nou, în ziua lansării.*</div><button type="button" class="landing-demo-button" id="landingDemoButton">Detalii ofertă <span aria-hidden="true">→</span></button><span class="landing-demo-feedback" id="landingDemoFeedback" role="status" aria-live="polite"></span></div><div class="landing-visual"><div class="landing-product-orbit"></div><img src="./assets/noctis-serum.svg" alt="Concept NOCTIS Daily Glow" loading="lazy"/><span class="landing-rune material-letter" aria-label="Literă ascunsă">E</span></div></div>
+            <footer class="landing-terms">*Campanie simulată. Fără comenzi, plăți, oferte valabile sau date colectate. Data și produsul sunt fictive.</footer>
+          </div>
+        </div>
+      </div>
+      <div class="material-action"><p>Ultimul material reunește informațiile despre produs și ofertă într-un singur loc.</p><button class="material-reveal" data-clue="landing" aria-controls="clue-landing" aria-expanded="false" type="button">Descoperă indiciul <span aria-hidden="true">↗</span></button><span class="material-discovered" id="clue-landing" aria-live="polite">Indiciu nedescoperit</span></div>
+    </section>
+    <div class="campaign-code-room" id="campaignCodeRoom">
+      <span class="lab-overline">OPȚIONAL / MICUL SECRET AL LANSĂRII</span>
+      <h4>Ai observat mesajul ascuns?</h4>
+      <p>Patru materiale, câte un semn în fiecare. Introdu literele în ordinea în care au apărut. Nu trebuie să rezolvi puzzle-ul ca să mergi mai departe.</p>
+      <div class="campaign-clue-track" role="status" id="cluePreview" aria-live="polite"><span>—</span><span>—</span><span>—</span><span>—</span></div>
+      <form class="secret-form" id="secretForm"><label for="secretCode">CODUL DE PATRU LITERE</label><div class="secret-input-row"><input aria-describedby="codeFeedback" autocapitalize="characters" autocomplete="off" id="secretCode" maxlength="4" name="secretCode" placeholder="_ _ _ _" required="" spellcheck="false" type="text"/><button class="primary-button compact" type="submit">Decodează ↗</button></div><p aria-live="polite" class="lab-inline-status" id="codeFeedback" role="status">Indiciile sunt în cele patru materiale de mai sus.</p></form>
+      <div class="reward-panel" hidden="" id="rewardPanel"><span class="lab-overline">DESCOPERIRE · SIMULARE</span><h3>Ai descoperit surpriza!</h3><p>Două alternative conceptuale, fără valoare reală: fie o reducere suplimentară, fie un mini-produs cadou. Alegerea ar necesita aprobarea marjelor, bugetului și stocului.</p><div class="reward-options"><button class="lab-choice" data-reward="discount" type="button">＋ Reducere extra</button><button class="lab-choice" data-reward="gift" type="button">✦ Mini-produs cadou</button></div><p aria-live="polite" class="lab-inline-status" id="rewardChoice"></p></div>
+    </div>
+  </div>
+<div class="lab-strategy" hidden="" id="strategy-secret"><div class="lab-strategy-header"><span class="lab-overline">STRATEGY FILE / 01</span><button class="text-button" data-close-strategy="secret" type="button">Închide ×</button></div><h3>Cum ar funcționa în realitate?</h3><div class="lab-fact-grid"><div><b>PUBLIC</b><p>Clienți existenți + persoane interesate de skincare în apropierea magazinului.</p></div><div><b>DISTRIBUȚIE</b><p>Flyere în punctul de vânzare, Stories, postări, pagină de lansare. Puzzleul este opțional.</p></div><div><b>COSTURI DE VALIDAT</b><p>Print, ore promoter, creație grafică, premii, stoc și marja reducerii.</p></div><div><b>RISCURI</b><p>Oferta poate afecta marja; mecanica trebuie să fie clară, limitată și aprobată înainte de lansare.</p></div><div><b>KPI PROPUS</b><p>Coduri revendicate, trafic în magazin, conversii la lansare, rata de atașare a produsului secundar.</p></div><div><b>TEST PILOT</b><p>O singură locație și un lot mic de flyere, înainte de orice extindere.</p></div></div><p class="lab-footnote">*Toate procentele, data și recompensele sunt illustrative. Regulamentul, produsele eligibile și bugetul trebuie stabilite de companie. Nu există cod de reducere real.</p></div>
+<div class="narrative-detail-foot"><p><strong>Ce aș testa:</strong> câte persoane revin în ziua lansării, comparat cu costul flyerelor și al stimulentelor. Riscul major: oferta să consume marja.</p><button class="narrative-close" data-go="marketing" type="button">Închide demonstrația ↗</button></div></div></section>
+<div aria-hidden="true" class="narrative-transition"><span>01 → 02</span><p>Am creat curiozitate. <strong>Dar un om curios nu este încă un client.</strong></p></div>
+<section aria-labelledby="actTwoTitle" class="narrative-act" id="act-acquisition">
+<div class="narrative-act-top"><span>02 / ACQUISITION + ENGAGEMENT</span><span>PLAY, DISCOVER &amp; WIN</span></div>
+<h3 id="actTwoTitle">Ne-a văzut. <em>Cum îl facem să se oprească?</em></h3>
+<p class="narrative-act-lead">La un stand, 25 de secunde de joacă pot sparge gheața. Apoi un consultant poate continua conversația cu întrebări despre preferințe.</p>
+<div aria-label="Parcurs comercial ipotetic" class="narrative-store-path"><span>Un trecător</span><b>→</b><span>Joacă 25 secunde</span><b>→</b><span>Discută cu un consultant</span><b>→</b><span>Descoperă produse</span></div>
+<div class="narrative-options">
+<div class="narrative-option"><div aria-hidden="true" class="narrative-option-visual"><span>✧</span><span>✦</span><span>✳</span></div><span class="narrative-label">ACTIVAREA A · 25 SECUNDE</span><h4>Beat the Score</h4><p>Motivul să se oprească: un joc simplu și un cupon strict demonstrativ.</p><button class="primary-button compact narrative-trigger" data-go="marketing/arcade" type="button">Joacă 25 de secunde ↗</button></div>
+<div class="narrative-option"><div aria-hidden="true" class="narrative-option-visual narrative-option-quiz"><span>◈</span></div><span class="narrative-label">ACTIVAREA B · 5 ÎNTREBĂRI</span><h4>Know Your Skin</h4><p>Motivul să rămână: descoperă produse fictive NOCTIS pornind de la preferințele sale.</p><button class="narrative-close narrative-trigger" data-go="marketing/quiz" type="button">Încearcă quizul ↗</button></div>
+</div>
+<p class="narrative-minimal-note">Nu ai nevoie să joci pentru a înțelege ideea: cele două activări sunt opționale și pot fi folosite și separat.</p>
+<div class="narrative-takeaway"><span>DECIZIA MEA</span><p>Aș testa într-un singur magazin, o singură zi. Numărul de puncte nu contează comercial; contează câți participanți ajung să discute despre produse.</p><button class="narrative-inline" data-strategy-entry="play" type="button">Costuri și riscuri ale pilotului ↗</button></div>
+<div class="lab-view" hidden="" id="lab-play">
+<div class="lab-duo"><article class="activation-card"><span class="lab-overline">ACTIVATION A · 25 SEC</span><div aria-hidden="true" class="activation-icon">✧</div><h3>Beat the Score</h3><p>25 de secunde de joacă pot deschide o conversație cu un promoter. Prag nou: 90 de puncte; cuponul este demo.</p><button class="primary-button compact" data-go="marketing/arcade" type="button">Play the Game ↗</button></article><article class="activation-card"><span class="lab-overline">ACTIVATION B · 5 QUESTIONS</span><div aria-hidden="true" class="activation-icon">◈</div><h3>Know Your Skin</h3><p>Cinci întrebări despre preferințe și produse NOCTIS fictive, pe care un consultant le-ar putea prezenta la raft.</p><button class="primary-button compact" data-go="marketing/quiz" type="button">Start Quiz ↗</button></article></div>
+<div class="lab-bridge-note"><span>01</span><div><b>La intrarea în magazin:</b> jocul atrage atenția într-o activare asistată de promoter.</div><span class="lab-flow-arrow">→</span><span>02</span><div><b>La raft:</b> quizul oferă un punct de plecare pentru discuția cu un consultant.</div></div>
+<div class="lab-strategy" hidden="" id="strategy-play"><div class="lab-strategy-header"><span class="lab-overline">STRATEGY FILE / 02</span><button class="text-button" data-close-strategy="play" type="button">Închide ×</button></div><h3>De la atenție la interacțiune.</h3><div class="lab-fact-grid"><div><b>PUBLIC</b><p>Vizitatori din proximitatea magazinului, interesați de produse beauty.</p></div><div><b>EXECUȚIE</b><p>Pilot de o zi într-un magazin, tabletă, promoter și regulament simplu pentru cupon.</p></div><div><b>COSTURI</b><p>Ore promoter, echipament, dezvoltare joc, reduceri acordate și timp de consultanță.</p></div><div><b>RISCURI</b><p>Cozi, participări repetate, cupon folosit fără eligibilitate, recomandări interpretate ca diagnostic.</p></div><div><b>KPI</b><p>Participări, intrări în magazin, utilizări de cupon, discuții la raft, conversii atribuibile pilotului.</p></div><div><b>CONTROL</b><p>Limită de participare, coduri verificabile, reguli publice și personal instruit.</p></div></div><p class="lab-footnote">Jocul și cuponul sunt exclusiv demonstrative. Quizul nu poate determina tipul pielii sau afecțiuni.</p></div>
+<div class="narrative-detail-foot"><button class="narrative-close" data-go="marketing" type="button">Înapoi la poveste ↗</button></div></div><div class="lab-view" hidden="" id="lab-arcade"><div class="lab-section-heading"><div><span class="lab-overline">RETAIL EXPERIENCE · 25 SECOND CHALLENGE</span><h2>Beat <em>the Score.</em></h2><p>Ai 25 de secunde să atingi țintele. La stand, scopul ar fi să înceapă o conversație — nu doar să câștige cineva puncte.</p></div><span class="lab-pill">DEMO GAME</span></div>
+<div class="arcade-console"><div class="arcade-stats"><div><small>SCORE</small><strong id="arcadeScore">000</strong></div><div><small>TIME LEFT</small><strong id="arcadeTimer">25s</strong></div><div><small>TARGET</small><strong>090</strong></div></div><div aria-hidden="true" class="arcade-track"><span id="arcadeTrackFill"></span></div><div aria-label="Grilă de joc. Apasă pe ținta cu steluță." class="arcade-board" id="arcadeBoard" role="group"></div><div aria-live="polite" class="arcade-message" id="arcadeMessage"><span>READY PLAYER ONE</span><p>Apasă numai celula ✦: +10 puncte. Ai 25 secunde pentru 90 de puncte. Ținta expiră după 2,8 secunde sau se schimbă după apăsare, cu pauză scurtă. Poți folosi mouse, touch sau Tab + Enter/Space.</p><button class="primary-button compact" id="arcadeStart" type="button">Start Game ↗</button></div><p aria-live="polite" class="arcade-feedback" id="arcadeFeedback" role="status">Pregătit? 9 ținte corecte pentru premiul demonstrativ.</p><div aria-live="polite" class="arcade-result" hidden="" id="arcadeResult"><span class="lab-overline" id="arcadeResultLabel">ROUND FINISHED</span><h3 id="arcadeResultTitle">Round finished</h3><p id="arcadeResultText"></p><div class="demo-coupon" hidden="" id="demoCoupon"><strong>DEMO · NOT VALID</strong><span>–10% · COUPON CONCEPT</span><small>Exemplu: valabil 24 de ore de la emitere într-o campanie reală, numai cu regulament și validare în magazin. Aici nu poate fi utilizat.</small></div><button class="primary-button compact" id="arcadeReplay" type="button">Play Again ↺</button></div></div>
+<div class="narrative-detail-foot"><p><strong>Scorul nu vinde singur.</strong> Jocul deschide conversația. Într-un pilot aș măsura câte participări devin discuții reale la stand.</p><button class="narrative-close" data-go="marketing" type="button">Înapoi la poveste ↗</button></div></div><div class="lab-view" hidden="" id="lab-quiz"><div class="lab-section-heading"><div><span class="lab-overline">PERSONAL PREFERENCES / 5 QUESTIONS</span><h2>Know <em>Your Skin.</em></h2><p>Cinci întrebări despre preferințe; rezultatul sugerează produse fictive NOCTIS pe care un consultant le-ar putea prezenta.</p></div><span class="lab-pill">NON-MEDICAL</span></div><div class="quiz-shell"><div class="quiz-top"><span id="quizProgressLabel">QUESTION 01 / 05</span><div class="quiz-meter" id="quizMeter"><span></span><span></span><span></span><span></span><span></span></div></div><div id="quizQuestion"><h3 id="quizQuestionText">Ce preferi?</h3><div aria-label="Răspunsuri" class="quiz-options" id="quizOptions" role="radiogroup"></div><div class="quiz-actions"><button class="outline-button" id="quizBack" type="button">← Înapoi</button><button class="primary-button compact" disabled="" id="quizNext" type="button">Următoarea →</button></div></div><div hidden="" id="quizResult"><span class="lab-overline">PROPUNERI NOCTIS · PRODUSE FICTIVE</span><h3 id="quizResultTitle">Rutina ta, pe scurt</h3><p id="quizResultSummary"></p><div class="quiz-recommendations" id="quizRecommendations"></div><p class="lab-footnote">Produse NOCTIS exclusiv fictive; selecția folosește doar preferințele introduse local, fără diagnostic, analiză a pielii sau salvarea răspunsurilor. Nicio eficacitate ori certificare nu este afirmată.</p><button class="primary-button compact" id="quizRestart" type="button">Reia quizul ↺</button></div></div><div class="narrative-detail-foot"><p><strong>Personalizarea începe o discuție, nu un diagnostic.</strong> Următorul pas real ar fi un consultant care ascultă preferințele și explică produsele.</p><button class="narrative-close" data-go="marketing" type="button">Înapoi la poveste ↗</button></div></div></section>
+<div aria-hidden="true" class="narrative-transition"><span>02 → 03</span><p>Să presupunem că a cumpărat. <strong>Cum îi dăm un motiv să se întoarcă?</strong></p></div>
+<section aria-labelledby="actThreeTitle" class="narrative-act" id="act-retention">
+<div class="narrative-act-top"><span>03 / RETENTION</span><span>THE BEAUTY CIRCLE</span></div>
+<h3 id="actThreeTitle">Prima cumpărare s-a terminat. <em>Relația poate continua.</em></h3>
+<p class="narrative-act-lead">O comunitate în care clienții intră voluntar pentru informații utile, workshopuri, sondaje și mici activități. Nu încă un grup plin de reclame.</p>
+<div class="narrative-circle-scene">
+<div class="narrative-chat-sample"><div class="narrative-chat-head">✳   THE BEAUTY CIRCLE <small>CHAT FICTIV</small></div><div class="narrative-bubble">Mara: „Facem un workshop pentru rutine simple?”</div><div class="narrative-bubble narrative-bubble-answer">Admin: „Bună idee. Votăm tema și verificăm disponibilitatea unui specialist?”</div><div class="narrative-chat-foot">O conversație utilă, nu încă o ofertă.</div></div>
+<div class="narrative-circle-copy"><span class="narrative-label">DE CE AR INTRA CINEVA?</span><p><strong>Pentru clienți:</strong> informații, apartenență, activități și eventuale beneficii eligibile.</p><p><strong>Pentru brand:</strong> feedback, relații pe termen lung și motive pentru revenire.</p><p>Exemplu de beneficiu: 5% la produse eligibile, doar dacă marjele și regulile îl permit.</p><button class="primary-button compact narrative-trigger" data-go="marketing/circle" type="button">Încearcă o decizie de moderator ↗</button></div>
+</div>
+<div class="narrative-takeaway"><span>DECIZIA MEA</span><p>Aș urmări revenirea clienților, nu volumul mesajelor. Comunitatea merită continuată doar dacă oferă valoare fără să consume prea multe resurse de moderare.</p><button class="narrative-inline" data-strategy-entry="circle" type="button">Costuri și riscuri ↗</button></div>
+<div class="lab-view" hidden="" id="lab-circle"><div class="circle-layout"><div class="chat-device"><div class="chat-header"><span aria-hidden="true" class="chat-avatar">✳</span><div><strong>The Beauty Circle</strong><small>Simulare fictivă · nu este un chat real</small></div><span aria-hidden="true" class="chat-header-menu">•••</span></div><div aria-live="polite" class="chat-window" id="chatWindow"></div><div class="chat-input-fake">Mesaj demonstrativ · fără date personale <span>➤</span></div></div><aside class="moderator-panel"><div class="lab-mini-heading"><span class="lab-overline">MODERATOR MODE</span><strong id="circleStepLabel">SCENARIO 01 / 04</strong></div><h3 id="circlePrompt">Cum ai răspunde?</h3><p id="circleContext">Alege o replică pentru conversație.</p><div class="circle-choices" id="circleChoices"></div><div aria-live="polite" class="circle-feedback" hidden="" id="circleFeedback" role="status"><span id="circleFeedbackLabel">FEEDBACK</span><p id="circleFeedbackText"></p><button class="primary-button compact" id="circleNext" type="button">Next scenario →</button></div><div class="circle-finish" hidden="" id="circleFinish"><strong>4 / 4 situații explorate.</strong><p>O comunitate funcționează când răspunsurile sunt utile, sigure și constante — nu doar când există reduceri.</p><button class="primary-button compact" id="circleRestart" type="button">Reia simularea ↺</button></div><p class="lab-footnote">Toate numele și mesajele sunt fictive. Niciun mesaj nu este trimis către WhatsApp sau Telegram.</p></aside></div>
+<div class="lab-strategy" hidden="" id="strategy-circle"><div class="lab-strategy-header"><span class="lab-overline">STRATEGY FILE / 03</span><button class="text-button" data-close-strategy="circle" type="button">Închide ×</button></div><h3>Fidelizarea începe cu dialogul.</h3><div class="lab-fact-grid"><div><b>PUBLIC</b><p>Clienți care aleg voluntar să participe la o comunitate moderată.</p></div><div><b>FORMAT</b><p>WhatsApp Community sau Telegram, reguli clare, mesaje utile, sondaje și evenimente.</p></div><div><b>RESURSE</b><p>Moderator, conținut periodic, experți invitați, organizare workshop și buget beneficii.</p></div><div><b>RISCURI</b><p>Spam, răspunsuri medicale improprii, confidențialitate, suprasolicitarea administratorilor.</p></div><div><b>KPI</b><p>Retenție în comunitate, participare, feedback calitativ, reveniri în magazin, răscumpărări valide.</p></div><div><b>CONTROL</b><p>Consimțământ, reguli, moderare, escaladare către specialiști, cod individual verificabil.</p></div></div><p class="lab-footnote">Beneficiul de 5% este doar o ipoteză; necesită aprobare și termeni comerciali. Nu se solicită date despre sănătate în grup.</p></div>
+<div class="narrative-detail-foot"><p><strong>Ce aș măsura:</strong> revenirea membrilor în magazin, nu numărul de mesaje din chat. Riscul este supraîncărcarea moderatorilor și transformarea grupului în spam.</p><button class="narrative-close" data-go="marketing" type="button">Înapoi la poveste ↗</button></div></div></section>
+<div class="narrative-finale" id="act-summary"><span class="narrative-label">DE CE ACESTE TREI IDEI?</span><h3>Nu sunt trei trucuri separate.<br/><em>Este o relație cu clientul.</em></h3>
+<div class="narrative-chain"><span><small>01 · AWARENESS</small>Atrag atenția</span><b>→</b><span><small>02 · ACQUISITION</small>Încep conversația</span><b>→</b><span><small>03 · RETENTION</small>Ofer motive să revină</span></div>
+<p>Toate sunt ipoteze, nu rezultate demonstrate. Le-aș testa la scară mică, aș verifica costurile și aș păstra doar ce produce valoare.</p>
+<p class="narrative-next-line">Până aici au fost propuneri. Acum vreau să-ți arăt și ce am construit efectiv.</p>
+</div>
+</div>
+<!-- CAMPAIGN 1 -->
+<!-- CAMPAIGN 2 / ACTIVATION HUB -->
+<!-- 2A / ARCADE -->
+<!-- 2B / QUIZ -->
+<!-- CAMPAIGN 3 / COMMUNITY SIMULATOR -->
+<!-- SYNTHESIS -->
+</div>
+<div class="story-next story-next-marketing"><button class="primary-button compact" data-scroll-to="proof" type="button">Continuă → Proof of Work <span aria-hidden="true">↘</span></button></div></section><section aria-labelledby="proofTitle" class="screen story-chapter story-simple proof-chapter" data-chapter="proof" data-unlocked="true" id="proof">
+  <div class="story-inner proof-inner">
+    <p class="story-kicker">CHAPTER 03 <span>/ 05</span></p>
+    <h2 id="proofTitle">Proof of Work<span class="story-stop">.</span></h2>
+    <div class="proof-project-header">
+      <div class="proof-project-heading">
+        <p class="proof-eyebrow"><span class="proof-eyebrow-mark" aria-hidden="true"></span> 01 / WEB APPLICATION</p>
+        <h3>DetailLane<span class="proof-title-period">.</span></h3>
+        <p class="proof-desc">Unul dintre proiectele la care am lucrat cel mai mult este DetailLane, o aplicație web pentru firmele de detailing auto.</p>
+        <p>Am început cu o idee destul de simplă: să creez un instrument prin care o firmă să își poată organiza mai ușor ofertele, programările și clienții.</p>
+      </div>
+      <div class="proof-project-index" aria-hidden="true"><span>UN PROIECT REAL</span><span>DESIGN · DEZVOLTARE · FEEDBACK</span></div>
+    </div>
+
+    <p class="proof-video-intro">Mai jos poți vedea o demonstrație a aplicației.</p>
+    <figure class="proof-video-figure">
+      <div class="proof-video-heading"><div><span class="proof-play-dot" aria-hidden="true"></span><span>DEMONSTRAȚIE</span></div><span>00:46 <span aria-hidden="true">/</span> 05 FUNCȚIONALITĂȚI</span></div>
+      <div class="proof-video-frame" id="detailLaneVideoFrame">
+        <video id="detailLaneVideo" controls preload="metadata" playsinline poster="./assets/video/detaillane-poster.jpg" aria-label="Demonstrație video DetailLane, 46 de secunde">
+          <source src="./assets/video/DetailLane_Showreel_Doar_Videoclip.mp4" type="video/mp4" />
+          Browserul tău nu poate reda acest videoclip. <a href="./assets/video/DetailLane_Showreel_Doar_Videoclip.mp4">Descarcă demonstrația MP4</a>.
+        </video>
+        <button class="proof-video-overlay" id="detailLaneVideoPlay" type="button" aria-label="Pornește demonstrația DetailLane de 46 de secunde">
+          <span class="proof-big-play" aria-hidden="true"><svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13L19 12 8 5.5z"></path></svg></span>
+          <span class="proof-video-overlay-copy">Vezi demonstrația <span aria-hidden="true">↗</span></span>
+        </button>
+      </div>
+      <figcaption class="proof-video-caption"><span>DetailLane în 46 de secunde</span><span>Demonstrație a aplicației, cu date de test.</span></figcaption>
+    </figure>
+
+    <div class="proof-after-video">
+      <div class="proof-story-text">
+        <p>De acolo, proiectul a tot crescut. Am adăugat funcționalități, am schimbat interfața de mai multe ori și am încercat să fac aplicația cât mai ușor de folosit.</p>
+        <p>Am contactat și firme reale pentru a le prezenta produsul. Unele au fost interesate, altele nu. Am primit și feedback care m-a ajutat să-mi dau seama ce ar trebui îmbunătățit.</p>
+        <p>Nu a fost doar un exercițiu de programare. A trebuit să mă gândesc și la utilizator, la prezentarea produsului și la cum aș putea convinge pe cineva să îl încerce.</p>
+      </div>
+      <div class="proof-side-note" aria-label="Funcționalități prezentate în demonstrație">
+        <span class="proof-side-eyebrow">ÎN VIDEO</span>
+        <span>Dashboard</span>
+        <span>Servicii &amp; prețuri</span>
+        <span>Oferte rapide</span>
+        <span>Before &amp; After</span>
+        <span>Statistici</span>
+      </div>
+    </div>
+
+    <div class="proof-more">
+      <div class="proof-more-heading"><span class="proof-eyebrow">02 / ALTE PROIECTE</span><h3>Am mai lucrat și la...</h3></div>
+      <div class="proof-more-list">
+        <div class="proof-more-item"><span class="proof-more-number">01</span><div><strong>HypeCollections</strong><p>Magazin online pe Shopify.</p></div></div>
+        <div class="proof-more-item"><span class="proof-more-number">02</span><div><strong>Campanie auto în Slovenia</strong><p>Planificare promovare Facebook, targetare și texte publicitare.</p></div></div>
+      </div>
+    </div>
+    <div class="proof-transition">
+      <p>Bun, ți-am arătat câteva lucruri la care am lucrat. Dar dacă aș începe să lucrez aici, cum aș aborda prima lună?</p>
+      <div class="story-next"><button class="primary-button compact" data-scroll-to="plan" type="button">My First 30 Days <span aria-hidden="true">↗</span></button></div>
+    </div>
+  </div>
+</section>
+<!-- CHAPTER 04 / MY FIRST 30 DAYS — editorial plan; proposed, not executed -->
+<section aria-labelledby="planTitle" class="screen story-chapter story-simple plan-chapter" data-chapter="plan" data-unlocked="true" id="plan">
+  <div class="story-inner plan-inner">
+    <div class="plan-intro">
+      <div class="plan-intro-copy">
+        <p class="story-kicker">CHAPTER 04 <span>/ 05</span> <span class="plan-small-label">CUM AȘ ABORDA PRIMA LUNĂ</span></p>
+        <h2 id="planTitle">My First<br/><span>30 Days<span class="story-stop">.</span></span></h2>
+        <p class="plan-opening">Am câteva idei despre ce aș putea face în primele 30 de zile. Dar înainte să vin cu o campanie nouă, aș vrea să înțeleg cum funcționează lucrurile deja.</p>
+      </div>
+      <div class="plan-intro-figure" aria-hidden="true">
+        <div class="plan-figure-top"><span>PLAN / NOT A PROMISE</span><span>01 — 30</span></div>
+        <div class="plan-figure-rule"><span></span><span></span><span></span></div>
+        <div class="plan-figure-cards"><strong>UNDERSTAND</strong><strong>PRIORITIZE</strong><strong>TEST &amp; LEARN</strong></div>
+        <div class="plan-figure-bottom">ONE FOCUSED STEP AT A TIME <span>↗</span></div>
+      </div>
+    </div>
+
+    <div class="plan-timeline" aria-label="Trei etape ale primei luni">
+      <div class="plan-track" aria-hidden="true"><span class="plan-track-progress" id="planProgress"></span></div>
+      <article class="plan-phase" id="plan-understand">
+        <div class="plan-phase-number" aria-hidden="true">01</div>
+        <div class="plan-phase-content">
+          <div class="plan-phase-meta"><span class="plan-day-range">DAYS 01—07</span><span class="plan-phase-rule" aria-hidden="true"></span><span class="plan-phase-theme">DISCOVER</span></div>
+          <h3>Înțeleg<span>.</span></h3>
+          <p>Aș începe prin a cunoaște echipa, produsele și clienții. M-ar interesa ce se vinde, ce încearcă să obțină compania și ce întrebări sau probleme apar cel mai des în procesul de cumpărare.</p>
+          <p>Aș vrea să înțeleg și ce funcționează deja, nu doar ce ar putea fi îmbunătățit.</p>
+          <div class="plan-takeaway"><span>CE VREAU SĂ AFLU</span><strong>Ce știm. Ce nu știm. Unde merită să mă uit.</strong></div>
+        </div>
+      </article>
+      <article class="plan-phase" id="plan-prioritize">
+        <div class="plan-phase-number" aria-hidden="true">02</div>
+        <div class="plan-phase-content">
+          <div class="plan-phase-meta"><span class="plan-day-range">DAYS 08—14</span><span class="plan-phase-rule" aria-hidden="true"></span><span class="plan-phase-theme">PRIORITIZE</span></div>
+          <h3>Aleg o direcție<span>.</span></h3>
+          <p>Din informațiile adunate, aș identifica două oportunități și aș alege una pe care o putem testa realist.</p>
+          <p>M-aș uita la impactul posibil, costuri, timpul necesar și resursele echipei. Nu cred că are sens să încep zece lucruri dacă nu pot duce niciunul până la capăt.</p>
+          <div class="plan-takeaway"><span>CE AȘ PREGĂTI</span><strong>O propunere clară, cu o ipoteză și o metodă de verificare.</strong></div>
+        </div>
+      </article>
+      <article class="plan-phase" id="plan-test">
+        <div class="plan-phase-number" aria-hidden="true">03</div>
+        <div class="plan-phase-content">
+          <div class="plan-phase-meta"><span class="plan-day-range">DAYS 15—30</span><span class="plan-phase-rule" aria-hidden="true"></span><span class="plan-phase-theme">TEST &amp; LEARN</span></div>
+          <h3>Testez și învăț<span>.</span></h3>
+          <p>Aș pregăti un experiment mic, cu un obiectiv clar și un mod de a verifica rezultatele.</p>
+          <p>De exemplu, dacă descoperim că oamenilor le este greu să aleagă între anumite produse, aș testa o prezentare mai clară a acestora, folosind informațiile aprobate ale brandului.</p>
+          <p>Aș compara rezultatele cu varianta inițială, în măsura în care datele permit o concluzie.</p>
+          <div class="plan-takeaway"><span>CE AȘ ADUCE ECHIPEI</span><strong>Observații, rezultate unde există date și o recomandare pentru pasul următor.</strong></div>
+        </div>
+      </article>
+    </div>
+
+    <div class="plan-experiment" id="plan-experiment" aria-labelledby="planExperimentTitle">
+      <div class="plan-experiment-top"><span>THE FIRST EXPERIMENT</span><span>UN EXEMPLU, NU UN REZULTAT</span></div>
+      <div class="plan-experiment-head">
+        <div><p class="plan-experiment-question">O întrebare care merită testată</p><h3 id="planExperimentTitle">Can we make<br/>product choice <em>easier?</em></h3></div>
+        <span class="plan-experiment-glyph" aria-hidden="true">?</span>
+      </div>
+      <p class="plan-experiment-context">În beauty, un client poate fi interesat de un produs, dar să nu știe dacă i se potrivește. Nu spun că asta se întâmplă la companie; este o posibilă problemă pe care aș verifica-o mai întâi.</p>
+      <div class="plan-compare" aria-label="Exemplu schematic: cum poate fi clarificată prezentarea unui produs">
+        <div class="plan-compare-side">
+          <div class="plan-compare-caption"><span>01</span> STRUCTURĂ DE BAZĂ</div>
+          <div class="plan-wire-product"><div class="plan-wire-icon" aria-hidden="true"></div><div class="plan-wire-lines" aria-hidden="true"><i></i><i></i></div></div>
+          <div class="plan-wire-description" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="plan-wire-cta">Buton de cumpărare</div>
+        </div>
+        <div class="plan-compare-arrow" aria-hidden="true">→</div>
+        <div class="plan-compare-side plan-compare-better">
+          <div class="plan-compare-caption"><span>02</span> INFORMAȚII MAI CLARE</div>
+          <div class="plan-wire-product"><div class="plan-wire-icon" aria-hidden="true"></div><div class="plan-wire-lines" aria-hidden="true"><i></i><i></i></div></div>
+          <div class="plan-wire-answers"><div><span class="plan-check" aria-hidden="true">↳</span><span>Pentru cine e potrivit?</span></div><div><span class="plan-check" aria-hidden="true">↳</span><span>Cum se folosește?</span></div></div>
+          <div class="plan-wire-cta">Buton de cumpărare</div>
+        </div>
+      </div>
+      <p class="plan-compare-footnote">Exemplu schematic, fără produse, date sau rezultate reale. Informațiile și formulările ar necesita aprobarea brandului.</p>
+      <div class="plan-experiment-process" aria-label="Procesul propus de verificare"><span>Întrebare</span><b aria-hidden="true">→</b><span>Ipoteză</span><b aria-hidden="true">→</b><span>Test</span><b aria-hidden="true">→</b><span>Învățare</span></div>
+      <p class="plan-experiment-close">Dacă feedbackul și datele confirmă o dificultate, aș testa o prezentare mai clară a unui produs și aș verifica dacă oamenii îl înțeleg mai bine — și, unde se poate măsura, dacă se schimbă comportamentul de cumpărare.</p>
+    </div>
+
+    <div class="plan-conclusion">
+      <span class="plan-conclusion-kicker">DUPĂ 30 DE ZILE</span>
+      <p>Aș vrea să pot arăta ce am înțeles despre business, ce am încercat, ce am învățat și ce ar merita făcut în continuare.</p>
+      <p class="plan-conclusion-emphasis">Nu promit că schimb totul în 30 de zile. Dar vreau ca la sfârșitul primei luni să existe ceva concret pe care echipa să poată construi.</p>
+      <div class="plan-deep-dive" aria-labelledby="planDeepTitle">
+        <div class="plan-deep-dive-copy">
+          <span class="plan-deep-dive-eyebrow">EXTRA / PENTRU CINE VREA DETALII</span>
+          <h3 id="planDeepTitle">Vrei să vezi și ce e în spatele planului?</h3>
+          <p>Am pus separat cercetarea pieței, cifrele, exemplele din industrie și modul în care aș prioritiza un prim experiment. E opțional — povestea principală continuă mai jos.</p>
+        </div>
+        <a class="plan-deep-dive-link" href="./analiza-plan-detaliat.html" id="openDetailedPlan">
+          <span>Vezi analiza și planul detaliat</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div class="plan-transition"><p>Cam asta ar fi abordarea mea. Restul cred că merită discutat față în față.</p><div class="story-next"><button class="primary-button compact" data-scroll-to="decision" type="button">One Last Thing <span aria-hidden="true">↗</span></button></div></div>
+    </div>
+  </div>
+</section><section aria-labelledby="decisionTitle" class="screen story-chapter story-simple story-final" data-chapter="decision" data-unlocked="true" id="decision">
+<div class="story-inner"><p class="story-kicker">CHAPTER 05 <span>/ 05</span></p>
+<h2 id="decisionTitle">The Final Decision<span class="story-stop">.</span></h2>
+<p class="story-lead">Mulțumesc că ai ajuns până aici.</p>
+<div class="decision-actions"><a class="primary-button compact" href="https://calendar.app.google/czSG1gu1BzWCy4E27" id="meetButton" target="_blank" rel="noopener noreferrer" aria-describedby="meetNotice">Hai să vorbim <span aria-hidden="true">↗</span></a>
+</div>
+<p class="booking-note" id="meetNotice">Se deschide pagina de programare Google Calendar într-un tab nou.</p>
+<p class="decision-handshake">Aș fi trimis și o strângere de mână, dar HTML-ul are limitele lui.</p>
+
+</div></section>
+<!-- QUICK / ACCESSIBLE SUMMARY -->
+<!-- RESPECTFUL EXIT -->
+<section aria-label="Încheierea experienței" aria-modal="true" class="story-exit" hidden="" id="exitOverlay" role="dialog">
+<div class="content-container narrow exit-container">
+<div class="eyebrow"><span aria-hidden="true" class="eyebrow-line"></span><span>SESSION PAUSED</span></div>
+<div aria-hidden="true" class="exit-glyph">✳</div>
+<h2 id="exitTitle">Fair enough. No hard feelings.</h2>
+<p class="content-lead">Mulțumesc că ai aruncat o privire. Dacă te răzgândești, aplicația te așteaptă chiar aici.</p>
+<button class="primary-button compact" data-action="close-exit" type="button">M-am răzgândit <span aria-hidden="true">↗</span></button>
+</div>
+</section>
+</main>
+<div aria-live="polite" class="sr-only" id="liveRegion" role="status"></div>
+</div>
+</body>
+</html>

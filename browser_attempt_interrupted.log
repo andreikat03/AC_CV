@@ -1,0 +1,39 @@
+PASS main responsive 320px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 320px overflow=0px; js=[]; img=[]
+PASS main responsive 375px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 375px overflow=0px; js=[]; img=[]
+PASS main responsive 390px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 390px overflow=0px; js=[]; img=[]
+PASS main responsive 430px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 430px overflow=0px; js=[]; img=[]
+PASS main responsive 768px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 768px overflow=0px; js=[]; img=[]
+PASS main responsive 1024px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 1024px overflow=0px; js=[]; img=[]
+PASS main responsive 1440px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 1440px overflow=0px; js=[]; img=[]
+PASS main responsive 1920px overflow=0px; js=[]; img=['Produs fictiv NOCTIS Daily Glow', 'Ser fictiv NOCTIS Daily Glow prezentat într-un Story']
+PASS detail responsive 1920px overflow=0px; js=[]; img=[]
+PASS original personalized Hook 
+PASS chapter structure ['who', 'marketing', 'proof', 'plan', 'decision']
+PASS fast recruit skip path 
+PASS exit modal opens 
+PASS exit modal focus containment 
+PASS exit modal Escape restores focus 
+PASS start navigation + focus whoTitle
+PASS chapter dots after start 
+PASS puzzle wrong and IDEE correct Nu este codul corect. Urmărește literele de pe Flyer → Story → Postare → Landing page. / Cod recunoscut. Ai deblocat o recompensă demonstrativă.
+PASS puzzle four clues defined 
+PASS quiz five steps + recommendations O rutină simplă, aleasă de tine.
+PASS quiz reset 
+PASS Beauty Circle 4 scenarios 
+PASS Beauty Circle restart 
+PASS arcade 9 hits applied 9 hits; score 090
+PASS arcade win/coupon 
+PASS arcade replay 
+PASS Proof of Work DetailLane video exists 
+PASS embedded video metadata {'ready': 4, 'duration': 46, 'width': 1920, 'height': 1080}
+PASS Proof to plan 
+PASS Plan to Final Decision 
+PASS calendar booking exact URL and security 
+PASS main JS errors []

@@ -1,0 +1,108 @@
+/* V0.4. Last layer: deliberately remove dashboard chrome; a single vertical story. */
+html{scroll-behavior:smooth}
+body{overflow-x:hidden}
+.story-shell{overflow:visible;display:block;min-height:100svh}
+.story-shell main{display:block;min-height:100svh}
+.story-shell .world-grid{position:fixed;z-index:0;height:100vh;pointer-events:none}
+.story-shell .ambient,.story-shell .orbit-line{position:fixed;z-index:0}
+/* The sole persistent tool is optional sound, discretely at the lower right. */
+.story-shell .topbar{position:fixed;inset:auto 14px 14px auto;height:auto;width:auto;min-height:0;padding:0;border:0;z-index:16;background:transparent;backdrop-filter:none}
+.story-shell .top-actions{gap:0}
+.story-shell #soundButton{padding:9px;min-height:40px;min-width:40px;justify-content:center;background:rgba(43,55,69,.88);border-color:rgba(173,190,211,.25);backdrop-filter:blur(12px)}
+.story-shell #soundButton .control-text{display:none}
+.story-shell .intro-screen{display:flex;min-height:100svh;min-height:100dvh;width:100%;flex:0 0 auto;animation:none;margin:0 auto}
+.story-shell .story-chapter{display:flex;position:relative;min-height:90svh;flex-direction:column;justify-content:center;align-items:stretch;padding:clamp(90px,10vh,135px) max(42px,calc((100vw - 1080px)/2)) clamp(84px,9vh,128px);scroll-margin-top:0;animation:none}
+.story-shell.before-story .story-chapter{display:none!important}
+.story-shell .story-inner{width:100%;max-width:930px;margin:0 auto}
+.story-kicker{font:11px var(--mono);letter-spacing:.12em;color:var(--accent);margin:0 0 26px}
+.story-kicker span{color:var(--dim)}
+.story-simple h2{font-size:clamp(48px,6.6vw,94px);line-height:1.07;letter-spacing:-.06em;max-width:900px;margin:0 0 20px}
+.story-stop{color:var(--accent)}
+.story-lead{font-size:clamp(18px,2vw,24px);line-height:1.55;color:var(--muted);max-width:680px;margin-bottom:30px}
+.story-placeholder{max-width:660px;border-left:2px solid #9daec5a6;padding:8px 0 8px 22px}
+.story-placeholder p{font-size:15px;line-height:1.75;color:var(--muted);margin:12px 0 0}
+.story-tag{font:10px var(--mono);color:#ccd6e4;letter-spacing:.13em;text-transform:uppercase}
+.story-next{margin-top:42px;display:flex;justify-content:flex-start}
+.story-next button{font-size:13px;white-space:normal;text-align:center}
+.story-next-marketing{max-width:1180px;width:100%;margin:60px auto 0;justify-content:flex-end}
+/* The original lab is a chapter in the flow, not a full-screen screen replacement. */
+.story-shell .lab-screen{min-height:100svh;max-width:none;padding:clamp(76px,9vh,120px) max(42px,calc((100vw - 1200px)/2)) 110px}
+.story-shell .lab-container{margin:0 auto}
+.story-shell .lab-navigation{margin-bottom:22px}
+.chapter-superscript{color:var(--dim);font:11px var(--mono)}
+.story-shell .lab-hero-insignia{opacity:.65}
+.story-shell .lab-hub-footer{background:transparent}
+.story-shell .lab-experience-grid .lab-card{min-height:305px}
+/* Five dots, the ONLY global chapter navigation. Large invisible touch targets. */
+.story-dots{position:fixed;z-index:14;left:clamp(8px,2.8vw,34px);top:50%;transform:translateY(-50%);display:flex;flex-direction:column;align-items:center;gap:4px;isolation:isolate}
+.story-dots[hidden]{display:none!important}
+.story-dot{position:relative;display:grid;place-items:center;border:0;background:transparent;width:44px;height:44px;padding:0;color:var(--muted);outline-offset:-4px}
+.dot-core{display:block;width:8px;height:8px;border-radius:50%;background:#76889c;border:1px solid #a4b3c566;transition:width .2s,height .2s,background .2s,box-shadow .2s}
+.story-dot:hover .dot-core,.story-dot:focus-visible .dot-core{width:11px;height:11px;background:#ccd7e5}
+.story-dot.is-active .dot-core{width:13px;height:13px;background:#c5d4e8;box-shadow:0 0 0 5px #9dafc430}
+.dot-tooltip{position:absolute;left:43px;top:50%;transform:translate(5px,-50%);padding:8px 11px;background:#344454;color:#e5edf8;border:1px solid #a8b8d455;box-shadow:0 8px 22px #17222d66;border-radius:7px;font:11px var(--ui);font-weight:650;white-space:nowrap;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .15s,transform .15s}
+.story-dot:hover .dot-tooltip,.story-dot:focus-visible .dot-tooltip{opacity:1;visibility:visible;transform:translate(0,-50%)}
+/* The Hook stays first and gets a quiet, genuinely optional exit. */
+.intro-decline{display:block;border:0;border-bottom:1px solid transparent;background:transparent;color:var(--dim);font:11px var(--ui);padding:9px 2px;margin:24px 0 0;text-align:left}
+.intro-decline:hover{color:var(--text);border-bottom-color:var(--muted)}
+.story-exit{position:fixed;inset:0;z-index:40;display:flex;justify-content:center;align-items:center;padding:26px;background:rgba(21,29,40,.94);backdrop-filter:blur(7px)}
+.story-exit[hidden]{display:none!important}
+body.story-exit-open{overflow:hidden}
+.story-exit .exit-container{max-width:650px}
+.decision-copy{max-width:690px;color:var(--text);font-size:16px;line-height:1.7;margin:0 0 30px}
+.decision-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.decision-actions .primary-button:disabled{opacity:.55;filter:saturate(.4);cursor:not-allowed}
+.booking-note{color:var(--muted);max-width:590px;font-size:12px;line-height:1.55;margin:18px 0 0}
+.decision-thanks{border-left:2px solid var(--accent);padding:14px 18px;background:#36465479;border-radius:0 9px 9px 0;margin-top:23px;color:var(--text);font-size:14px;line-height:1.6}
+/* No snap or wheel interception: tall games and stories scroll natively. */
+@media(max-width:960px){
+ .story-shell .story-chapter{padding-left:clamp(60px,10vw,100px);padding-right:clamp(24px,6vw,55px)}
+ .story-shell .lab-screen{padding-left:clamp(60px,10vw,100px);padding-right:clamp(24px,5vw,45px)}
+ .story-dots{left:6px}
+}
+@media(max-width:700px){
+ .story-shell .story-chapter,.story-shell .lab-screen{padding-left:52px;padding-right:18px;padding-top:80px;padding-bottom:86px}
+ .story-shell .intro-screen{padding:90px 24px 76px}
+ .story-dot{width:38px;height:43px}
+ .story-dots{left:1px}
+ .dot-tooltip{left:39px}
+ .story-simple h2{font-size:clamp(42px,11vw,70px)}
+ .story-lead{font-size:17px}
+ .story-placeholder p{font-size:13px}
+ .story-next{margin-top:33px}
+ .story-next .primary-button{min-height:46px;padding:12px 15px;gap:10px}
+ .story-shell .lab-hero{padding-top:0}
+ .story-shell .lab-navigation{margin-bottom:8px}
+ .story-shell .lab-hub-footer{padding:16px}
+ .story-shell .topbar{right:8px;bottom:8px}
+}
+@media(max-width:370px){
+ .story-shell .story-chapter,.story-shell .lab-screen{padding-left:43px;padding-right:9px}
+ .story-dots{left:0}
+ .story-dot{width:34px;height:42px}
+ .dot-tooltip{left:34px}
+ .story-shell .intro-screen{padding:80px 20px 70px}
+ .story-simple h2{font-size:40px}
+ .story-next .primary-button{font-size:12px}
+}
+@media(prefers-reduced-motion:reduce){
+ html{scroll-behavior:auto!important}
+ .story-dot .dot-core,.story-dot .dot-tooltip{transition:none!important}
+ .story-shell .story-chapter,.story-shell .lab-view{animation:none!important}
+}
+/* Hidden visually, preserved for existing MarketingLab renderProgress() bindings. */
+.story-shell .lab-progress{display:none!important}
+/* Do not leave the clicked chapter's tooltip hovering over the story. */
+.story-dot.is-active:hover:not(:focus-visible) .dot-tooltip{opacity:0;visibility:hidden}
+@media(max-width:700px){.story-dot:hover:not(:focus-visible) .dot-tooltip{opacity:0;visibility:hidden}}
+
+/* V0.5.6 final invitation */
+.decision-handshake{margin-top:18px;color:#A9B3BE;font-size:.88rem;line-height:1.6;}
+#meetButton{display:inline-flex;align-items:center;justify-content:center;gap:.5em;text-decoration:none;}
+#meetButton:focus-visible{outline:3px solid #A8B8D4;outline-offset:4px;}
+
+/* V1.0: a discreet path for recruiters who prefer a short visit. */
+.intro-skip{display:block;margin:16px 0 0;padding:8px 0;border:0;background:transparent;color:#c4d3e4;font:12px var(--ui);text-decoration:underline;text-decoration-color:#a8b8d47a;text-underline-offset:5px;cursor:pointer}
+.intro-skip:hover{color:#fff;text-decoration-color:#fff}
+.intro-skip:focus-visible{outline:2px solid #A8B8D4;outline-offset:4px;border-radius:3px}
+.no-js-message{background:#2c3541;color:#e4e8ec;margin:0;padding:16px 24px;text-align:center;font:14px/1.6 sans-serif}

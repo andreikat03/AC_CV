@@ -1,0 +1,26 @@
+PASS main unique IDs {}
+PASS main img alternative text 0
+PASS main button accessible names []
+PASS main relative resource links []
+PASS main heading hierarchy h1 count 1
+PASS detail unique IDs {}
+PASS detail img alternative text 0
+PASS detail button accessible names []
+PASS detail relative resource links []
+PASS detail heading hierarchy h1 count 1
+PASS who.js JS syntax 
+PASS plan.js JS syntax 
+PASS proof.js JS syntax 
+PASS app.js JS syntax 
+PASS marketing.js JS syntax 
+PASS analiza-plan-detaliat.js JS syntax 
+PASS Candidate name without diacritics 
+PASS Creative Assets chapter removed 
+PASS Calendar exact link 
+PASS market metric Romania 2025 
+PASS DetailLane video metadata {'programs': [], 'stream_groups': [], 'streams': [{'codec_name': 'h264', 'width': 1920, 'height': 1080}], 'format': {'format_name': 'mov,mp4,m4a,3gp,3g2,mj2', 'duration': '46.000000'}}
+PASS DetailLane full decode 
+PASS HTTP all page resources 24 requests, errors: []
+PASS no-JS chapters accessible 
+PASS reduced motion script activation 
+SUMMARY 25 PASS 25 FAIL 0 LIMITED 0
